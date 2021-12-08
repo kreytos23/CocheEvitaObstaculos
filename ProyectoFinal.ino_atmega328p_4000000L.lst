@@ -1,0 +1,3857 @@
+
+C:\Users\serpi\AppData\Local\Temp\arduino_build_235144/ProyectoFinal.ino.elf:     file format elf32-avr
+
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+__vectors():
+       0:	0c 94 66 00 	jmp	0xcc	; 0xcc <__ctors_end>
+       4:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+       8:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+       c:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      10:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      14:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      18:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      1c:	0c 94 9b 07 	jmp	0xf36	; 0xf36 <__vector_7>
+      20:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      24:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      28:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      2c:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      30:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      34:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      38:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      3c:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      40:	0c 94 62 03 	jmp	0x6c4	; 0x6c4 <__vector_16>
+      44:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      48:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      4c:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      50:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      54:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      58:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      5c:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      60:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+      64:	0c 94 83 00 	jmp	0x106	; 0x106 <__bad_interrupt>
+
+00000068 <__trampolines_end>:
+__trampolines_start():
+      68:	00 00       	nop
+      6a:	00 09       	sbc	r16, r0
+      6c:	00 03       	mulsu	r16, r16
+      6e:	02 00       	.word	0x0002	; ????
+      70:	00 04       	cpc	r0, r0
+      72:	05 08       	sbc	r0, r5
+	...
+
+0000007f <digital_pin_to_bit_mask_PGM>:
+      7f:	01 02 04 08 10 20 40 80 01 02 04 08 10 20 01 02     ..... @...... ..
+      8f:	04 08 10 20 40 80 40                                ... @.@
+
+00000096 <digital_pin_to_port_PGM>:
+      96:	04 04 04 04 04 04 04 04 02 02 02 02 02 02 03 03     ................
+      a6:	03 03 03 03 02 02 03                                .......
+
+000000ad <port_to_input_PGM>:
+      ad:	00 00 00 00 23 00 26 00 29 00                       ....#.&.).
+
+000000b7 <port_to_output_PGM>:
+      b7:	00 00 00 00 25 00 28 00 2b 00                       ....%.(.+.
+
+000000c1 <port_to_mode_PGM>:
+      c1:	00 00 00 00 24 00 27 00 2a 00                       ....$.'.*.
+
+000000cb <tone_pin_to_timer_PGM>:
+      cb:	02                                                  .
+
+000000cc <__ctors_end>:
+__dtors_end():
+      cc:	11 24       	eor	r1, r1
+      ce:	1f be       	out	0x3f, r1	; 63
+      d0:	cf ef       	ldi	r28, 0xFF	; 255
+      d2:	d8 e0       	ldi	r29, 0x08	; 8
+      d4:	de bf       	out	0x3e, r29	; 62
+      d6:	cd bf       	out	0x3d, r28	; 61
+
+000000d8 <__do_copy_data>:
+__do_copy_data():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2409
+      d8:	11 e0       	ldi	r17, 0x01	; 1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2410
+      da:	a0 e0       	ldi	r26, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2411
+      dc:	b1 e0       	ldi	r27, 0x01	; 1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2412
+      de:	ec e1       	ldi	r30, 0x1C	; 28
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2413
+      e0:	f3 e1       	ldi	r31, 0x13	; 19
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2414
+      e2:	02 c0       	rjmp	.+4      	; 0xe8 <__do_copy_data+0x10>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2417
+      e4:	05 90       	lpm	r0, Z+
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2422
+      e6:	0d 92       	st	X+, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2424
+      e8:	aa 31       	cpi	r26, 0x1A	; 26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2425
+      ea:	b1 07       	cpc	r27, r17
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2426
+      ec:	d9 f7       	brne	.-10     	; 0xe4 <__do_copy_data+0xc>
+
+000000ee <__do_clear_bss>:
+__do_clear_bss():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+      ee:	21 e0       	ldi	r18, 0x01	; 1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2442
+      f0:	aa e1       	ldi	r26, 0x1A	; 26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2443
+      f2:	b1 e0       	ldi	r27, 0x01	; 1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2444
+      f4:	01 c0       	rjmp	.+2      	; 0xf8 <.do_clear_bss_start>
+
+000000f6 <.do_clear_bss_loop>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+      f6:	1d 92       	st	X+, r1
+
+000000f8 <.do_clear_bss_start>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+      f8:	a0 34       	cpi	r26, 0x40	; 64
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2449
+      fa:	b2 07       	cpc	r27, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2450
+      fc:	e1 f7       	brne	.-8      	; 0xf6 <.do_clear_bss_loop>
+.do_clear_bss_start():
+      fe:	0e 94 f8 07 	call	0xff0	; 0xff0 <main>
+     102:	0c 94 8c 09 	jmp	0x1318	; 0x1318 <_exit>
+
+00000106 <__bad_interrupt>:
+__vector_22():
+     106:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+0000010a <countPulseASM>:
+countPulseASM():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:62
+
+countPulseASM:
+
+.LM0:
+.LFBB1:
+    push r12   ;   ;  130 pushqi1/1 [length = 1]
+     10a:	cf 92       	push	r12
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:63
+    push r13   ;   ;  131 pushqi1/1 [length = 1]
+     10c:	df 92       	push	r13
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:64
+    push r14   ;   ;  132 pushqi1/1 [length = 1]
+     10e:	ef 92       	push	r14
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:65
+    push r15   ;   ;  133 pushqi1/1 [length = 1]
+     110:	ff 92       	push	r15
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:66
+    push r16   ;   ;  134 pushqi1/1 [length = 1]
+     112:	0f 93       	push	r16
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:67
+    push r17   ;   ;  135 pushqi1/1 [length = 1]
+     114:	1f 93       	push	r17
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:72
+/* prologue: function */
+/* frame size = 0 */
+/* stack size = 6 */
+.L__stack_usage = 6
+    mov r30,r24  ;  port, port   ;  2 *movhi/1  [length = 2]
+     116:	e8 2f       	mov	r30, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:73
+    mov r31,r25  ;  port, port
+     118:	f9 2f       	mov	r31, r25
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:79
+/*     unsigned long width = 0;
+***     // wait for any previous pulse to end
+***     while ((*port & bit) == stateMask)
+*/
+.LM1:
+    rjmp .L2   ;   ;  181 jump  [length = 1]
+     11a:	05 c0       	rjmp	.+10     	; 0x126 <countPulseASM+0x1c>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:83
+.L4:
+/*         if (--maxloops == 0) */
+.LM2:
+    subi r16,1   ;  maxloops,  ;  17  addsi3/2  [length = 4]
+     11c:	01 50       	subi	r16, 0x01	; 1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:84
+    sbc r17, r1   ;  maxloops
+     11e:	11 09       	sbc	r17, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:85
+    sbc r18, r1   ;  maxloops
+     120:	21 09       	sbc	r18, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:86
+    sbc r19, r1   ;  maxloops
+     122:	31 09       	sbc	r19, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:87
+    breq .L13  ; ,   ;  19  branch  [length = 1]
+     124:	61 f1       	breq	.+88     	; 0x17e <countPulseASM+0x74>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:91
+.L2:
+/*         if (--maxloops == 0) */
+.LM3:
+    ld r25,Z   ;  D.1554, *port_7(D)   ;  22  movqi_insn/4  [length = 1]
+     126:	90 81       	ld	r25, Z
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:92
+    and r25,r22  ;  D.1554, bit  ;  24  andqi3/1  [length = 1]
+     128:	96 23       	and	r25, r22
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:93
+    cp r25,r20   ;  D.1554, stateMask  ;  25  *cmpqi/2  [length = 1]
+     12a:	94 17       	cp	r25, r20
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:94
+    breq .L4   ; ,   ;  26  branch  [length = 1]
+     12c:	b9 f3       	breq	.-18     	; 0x11c <countPulseASM+0x12>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:95
+    rjmp .L6   ;   ;  184 jump  [length = 1]
+     12e:	05 c0       	rjmp	.+10     	; 0x13a <countPulseASM+0x30>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:104
+***     // wait for the pulse to start
+***     while ((*port & bit) != stateMask)
+***         if (--maxloops == 0)
+*/
+.LM4:
+    subi r16,1   ;  maxloops,  ;  31  addsi3/2  [length = 4]
+     130:	01 50       	subi	r16, 0x01	; 1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:105
+    sbc r17, r1   ;  maxloops
+     132:	11 09       	sbc	r17, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:106
+    sbc r18, r1   ;  maxloops
+     134:	21 09       	sbc	r18, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:107
+    sbc r19, r1   ;  maxloops
+     136:	31 09       	sbc	r19, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:108
+    breq .L13  ; ,   ;  33  branch  [length = 1]
+     138:	11 f1       	breq	.+68     	; 0x17e <countPulseASM+0x74>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:112
+.L6:
+/*         if (--maxloops == 0) */
+.LM5:
+    ld r25,Z   ;  D.1554, *port_7(D)   ;  41  movqi_insn/4  [length = 1]
+     13a:	90 81       	ld	r25, Z
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:113
+    and r25,r22  ;  D.1554, bit  ;  43  andqi3/1  [length = 1]
+     13c:	96 23       	and	r25, r22
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:114
+    cpse r25,r20   ;  D.1554, stateMask  ;  44  enable_interrupt-3  [length = 1]
+     13e:	94 13       	cpse	r25, r20
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:115
+    rjmp .L7   ;
+     140:	f7 cf       	rjmp	.-18     	; 0x130 <countPulseASM+0x26>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:116
+    mov r12, r1   ;  width  ;  7 *movsi/2  [length = 4]
+     142:	c1 2c       	mov	r12, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:117
+    mov r13, r1   ;  width
+     144:	d1 2c       	mov	r13, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:118
+    mov r14, r1   ;  width
+     146:	e1 2c       	mov	r14, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:119
+    mov r15, r1   ;  width
+     148:	f1 2c       	mov	r15, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:120
+    rjmp .L9   ;   ;  186 jump  [length = 1]
+     14a:	0a c0       	rjmp	.+20     	; 0x160 <countPulseASM+0x56>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:129
+***     // wait for the pulse to stop
+***     while ((*port & bit) == stateMask) {
+***         if (++width == maxloops)
+*/
+.LM6:
+    ldi r24,-1   ; ,   ;  50  addsi3/3  [length = 5]
+     14c:	8f ef       	ldi	r24, 0xFF	; 255
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:130
+    sub r12,r24  ;  width,
+     14e:	c8 1a       	sub	r12, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:131
+    sbc r13,r24  ;  width,
+     150:	d8 0a       	sbc	r13, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:132
+    sbc r14,r24  ;  width,
+     152:	e8 0a       	sbc	r14, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:133
+    sbc r15,r24  ;  width,
+     154:	f8 0a       	sbc	r15, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:134
+    cp r16,r12   ;  maxloops, width  ;  51  *cmpsi/2  [length = 4]
+     156:	0c 15       	cp	r16, r12
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:135
+    cpc r17,r13  ;  maxloops, width
+     158:	1d 05       	cpc	r17, r13
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:136
+    cpc r18,r14  ;  maxloops, width
+     15a:	2e 05       	cpc	r18, r14
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:137
+    cpc r19,r15  ;  maxloops, width
+     15c:	3f 05       	cpc	r19, r15
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:138
+    breq .L13  ; ,   ;  52  branch  [length = 1]
+     15e:	79 f0       	breq	.+30     	; 0x17e <countPulseASM+0x74>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:142
+.L9:
+/*         if (++width == maxloops) */
+.LM7:
+    ld r24,Z   ;  D.1554, *port_7(D)   ;  60  movqi_insn/4  [length = 1]
+     160:	80 81       	ld	r24, Z
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:143
+    and r24,r22  ;  D.1554, bit  ;  62  andqi3/1  [length = 1]
+     162:	86 23       	and	r24, r22
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:144
+    cp r24,r20   ;  D.1554, stateMask  ;  63  *cmpqi/2  [length = 1]
+     164:	84 17       	cp	r24, r20
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:145
+    breq .L10  ; ,   ;  64  branch  [length = 1]
+     166:	91 f3       	breq	.-28     	; 0x14c <countPulseASM+0x42>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:151
+/*             return 0;
+***     }
+***     return width;
+*/
+.LM8:
+    mov r22,r12  ;  D.1553, width  ;  108 movqi_insn/1  [length = 1]
+     168:	6c 2d       	mov	r22, r12
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:152
+    mov r23,r13  ;  D.1553, width  ;  109 movqi_insn/1  [length = 1]
+     16a:	7d 2d       	mov	r23, r13
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:153
+    mov r24,r14  ;  D.1553, width  ;  110 movqi_insn/1  [length = 1]
+     16c:	8e 2d       	mov	r24, r14
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:154
+    mov r25,r15  ;  D.1553, width  ;  111 movqi_insn/1  [length = 1]
+     16e:	9f 2d       	mov	r25, r15
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:157
+/* epilogue start */
+.LM9:
+    pop r17  ;   ;  171 popqi [length = 1]
+     170:	1f 91       	pop	r17
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:158
+    pop r16  ;   ;  172 popqi [length = 1]
+     172:	0f 91       	pop	r16
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:159
+    pop r15  ;   ;  173 popqi [length = 1]
+     174:	ff 90       	pop	r15
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:160
+    pop r14  ;   ;  174 popqi [length = 1]
+     176:	ef 90       	pop	r14
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:161
+    pop r13  ;   ;  175 popqi [length = 1]
+     178:	df 90       	pop	r13
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:162
+    pop r12  ;   ;  176 popqi [length = 1]
+     17a:	cf 90       	pop	r12
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:163
+    ret  ;  177 return_from_epilogue  [length = 1]
+     17c:	08 95       	ret
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:166
+.L13:
+.LM10:
+    ldi r22,0  ;  D.1553   ;  120 movqi_insn/1  [length = 1]
+     17e:	60 e0       	ldi	r22, 0x00	; 0
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:167
+    ldi r23,0  ;  D.1553   ;  121 movqi_insn/1  [length = 1]
+     180:	70 e0       	ldi	r23, 0x00	; 0
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:168
+    ldi r24,0  ;  D.1553   ;  122 movqi_insn/1  [length = 1]
+     182:	80 e0       	ldi	r24, 0x00	; 0
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:169
+    ldi r25,0  ;  D.1553   ;  123 movqi_insn/1  [length = 1]
+     184:	90 e0       	ldi	r25, 0x00	; 0
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:172
+/* epilogue start */
+.LM11:
+    pop r17  ;   ;  138 popqi [length = 1]
+     186:	1f 91       	pop	r17
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:173
+    pop r16  ;   ;  139 popqi [length = 1]
+     188:	0f 91       	pop	r16
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:174
+    pop r15  ;   ;  140 popqi [length = 1]
+     18a:	ff 90       	pop	r15
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:175
+    pop r14  ;   ;  141 popqi [length = 1]
+     18c:	ef 90       	pop	r14
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:176
+    pop r13  ;   ;  142 popqi [length = 1]
+     18e:	df 90       	pop	r13
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:177
+    pop r12  ;   ;  143 popqi [length = 1]
+     190:	cf 90       	pop	r12
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.S:178
+    ret  ;  144 return_from_epilogue  [length = 1]
+     192:	08 95       	ret
+
+00000194 <setup>:
+setup():
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:24
+int flag2 = 0;
+int atorado = 0;
+int lastStep;
+
+void setup() {
+  pinMode(pinAplus, OUTPUT);
+     194:	61 e0       	ldi	r22, 0x01	; 1
+     196:	80 91 16 01 	lds	r24, 0x0116	; 0x800116 <pinAplus>
+     19a:	0e 94 5d 04 	call	0x8ba	; 0x8ba <pinMode>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:25
+  pinMode(pinBplus, OUTPUT);
+     19e:	61 e0       	ldi	r22, 0x01	; 1
+     1a0:	80 91 14 01 	lds	r24, 0x0114	; 0x800114 <pinBplus>
+     1a4:	0e 94 5d 04 	call	0x8ba	; 0x8ba <pinMode>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:26
+  pinMode(pinAmin, OUTPUT);
+     1a8:	61 e0       	ldi	r22, 0x01	; 1
+     1aa:	80 91 12 01 	lds	r24, 0x0112	; 0x800112 <pinAmin>
+     1ae:	0e 94 5d 04 	call	0x8ba	; 0x8ba <pinMode>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:27
+  pinMode(pinBmin, OUTPUT);
+     1b2:	61 e0       	ldi	r22, 0x01	; 1
+     1b4:	80 91 10 01 	lds	r24, 0x0110	; 0x800110 <pinBmin>
+     1b8:	0e 94 5d 04 	call	0x8ba	; 0x8ba <pinMode>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:29
+
+  pinMode(rotorAplus, OUTPUT);
+     1bc:	61 e0       	ldi	r22, 0x01	; 1
+     1be:	80 91 20 01 	lds	r24, 0x0120	; 0x800120 <rotorAplus>
+     1c2:	0e 94 5d 04 	call	0x8ba	; 0x8ba <pinMode>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:30
+  pinMode(rotorBplus, OUTPUT);
+     1c6:	61 e0       	ldi	r22, 0x01	; 1
+     1c8:	80 91 04 01 	lds	r24, 0x0104	; 0x800104 <rotorBplus>
+     1cc:	0e 94 5d 04 	call	0x8ba	; 0x8ba <pinMode>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:31
+  pinMode(rotorAmin, OUTPUT);
+     1d0:	61 e0       	ldi	r22, 0x01	; 1
+     1d2:	80 91 02 01 	lds	r24, 0x0102	; 0x800102 <rotorAmin>
+     1d6:	0e 94 5d 04 	call	0x8ba	; 0x8ba <pinMode>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:32
+  pinMode(rotorBmin, OUTPUT);
+     1da:	61 e0       	ldi	r22, 0x01	; 1
+     1dc:	80 91 00 01 	lds	r24, 0x0100	; 0x800100 <__data_start>
+     1e0:	0e 94 5d 04 	call	0x8ba	; 0x8ba <pinMode>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:34
+
+  pinMode(trig, OUTPUT);
+     1e4:	61 e0       	ldi	r22, 0x01	; 1
+     1e6:	80 91 0e 01 	lds	r24, 0x010E	; 0x80010e <trig>
+     1ea:	0e 94 5d 04 	call	0x8ba	; 0x8ba <pinMode>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:35
+  pinMode(echo, INPUT);
+     1ee:	60 e0       	ldi	r22, 0x00	; 0
+     1f0:	80 91 0c 01 	lds	r24, 0x010C	; 0x80010c <echo>
+     1f4:	0e 94 5d 04 	call	0x8ba	; 0x8ba <pinMode>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:37
+
+  pinMode(bocina, OUTPUT);
+     1f8:	61 e0       	ldi	r22, 0x01	; 1
+     1fa:	80 91 06 01 	lds	r24, 0x0106	; 0x800106 <bocina>
+     1fe:	0e 94 5d 04 	call	0x8ba	; 0x8ba <pinMode>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:39
+  
+  pinMode(led, OUTPUT);
+     202:	61 e0       	ldi	r22, 0x01	; 1
+     204:	80 91 0a 01 	lds	r24, 0x010A	; 0x80010a <led>
+     208:	0e 94 5d 04 	call	0x8ba	; 0x8ba <pinMode>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:40
+  pinMode(ledStop, OUTPUT);
+     20c:	61 e0       	ldi	r22, 0x01	; 1
+     20e:	80 91 08 01 	lds	r24, 0x0108	; 0x800108 <ledStop>
+     212:	0c 94 5d 04 	jmp	0x8ba	; 0x8ba <pinMode>
+
+00000216 <sensor()>:
+_Z6sensorv():
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:102
+    delay(500);
+  }
+ 
+}
+
+float sensor(){
+     216:	cf 93       	push	r28
+     218:	df 93       	push	r29
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:103
+  digitalWrite(trig, HIGH),
+     21a:	ce e0       	ldi	r28, 0x0E	; 14
+     21c:	d1 e0       	ldi	r29, 0x01	; 1
+     21e:	61 e0       	ldi	r22, 0x01	; 1
+     220:	88 81       	ld	r24, Y
+     222:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:104
+  delay(1);
+     226:	61 e0       	ldi	r22, 0x01	; 1
+     228:	70 e0       	ldi	r23, 0x00	; 0
+     22a:	80 e0       	ldi	r24, 0x00	; 0
+     22c:	90 e0       	ldi	r25, 0x00	; 0
+     22e:	0e 94 d1 03 	call	0x7a2	; 0x7a2 <delay>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:105
+  digitalWrite(trig, LOW);
+     232:	60 e0       	ldi	r22, 0x00	; 0
+     234:	88 81       	ld	r24, Y
+     236:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:106
+  int duracion = pulseIn(echo, HIGH);
+     23a:	20 e4       	ldi	r18, 0x40	; 64
+     23c:	32 e4       	ldi	r19, 0x42	; 66
+     23e:	4f e0       	ldi	r20, 0x0F	; 15
+     240:	50 e0       	ldi	r21, 0x00	; 0
+     242:	61 e0       	ldi	r22, 0x01	; 1
+     244:	80 91 0c 01 	lds	r24, 0x010C	; 0x80010c <echo>
+     248:	0e 94 c7 04 	call	0x98e	; 0x98e <pulseIn>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:108
+  //Distancia en CM
+  float distancia = duracion / 58.2;
+     24c:	07 2e       	mov	r0, r23
+     24e:	00 0c       	add	r0, r0
+     250:	88 0b       	sbc	r24, r24
+     252:	99 0b       	sbc	r25, r25
+     254:	0e 94 81 08 	call	0x1102	; 0x1102 <__floatsisf>
+     258:	2d ec       	ldi	r18, 0xCD	; 205
+     25a:	3c ec       	ldi	r19, 0xCC	; 204
+     25c:	48 e6       	ldi	r20, 0x68	; 104
+     25e:	52 e4       	ldi	r21, 0x42	; 66
+     260:	0e 94 0d 08 	call	0x101a	; 0x101a <__divsf3>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:111
+
+  return distancia;
+}
+     264:	df 91       	pop	r29
+     266:	cf 91       	pop	r28
+     268:	08 95       	ret
+
+0000026a <corrimiento1()>:
+_Z12corrimiento1v():
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:114
+
+int corrimiento1(){
+  digitalWrite(pinAplus, HIGH);
+     26a:	61 e0       	ldi	r22, 0x01	; 1
+     26c:	80 91 16 01 	lds	r24, 0x0116	; 0x800116 <pinAplus>
+     270:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:115
+  digitalWrite(pinBplus, LOW);
+     274:	60 e0       	ldi	r22, 0x00	; 0
+     276:	80 91 14 01 	lds	r24, 0x0114	; 0x800114 <pinBplus>
+     27a:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:116
+  digitalWrite(pinAmin, LOW);
+     27e:	60 e0       	ldi	r22, 0x00	; 0
+     280:	80 91 12 01 	lds	r24, 0x0112	; 0x800112 <pinAmin>
+     284:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:117
+  digitalWrite(pinBmin, LOW);
+     288:	60 e0       	ldi	r22, 0x00	; 0
+     28a:	80 91 10 01 	lds	r24, 0x0110	; 0x800110 <pinBmin>
+     28e:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:119
+  return 1;
+}
+     292:	81 e0       	ldi	r24, 0x01	; 1
+     294:	90 e0       	ldi	r25, 0x00	; 0
+     296:	08 95       	ret
+
+00000298 <corrimiento2()>:
+_Z12corrimiento2v():
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:122
+
+int corrimiento2(){
+  digitalWrite(pinAplus, LOW);
+     298:	60 e0       	ldi	r22, 0x00	; 0
+     29a:	80 91 16 01 	lds	r24, 0x0116	; 0x800116 <pinAplus>
+     29e:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:123
+  digitalWrite(pinBplus, HIGH);
+     2a2:	61 e0       	ldi	r22, 0x01	; 1
+     2a4:	80 91 14 01 	lds	r24, 0x0114	; 0x800114 <pinBplus>
+     2a8:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:124
+  digitalWrite(pinAmin, LOW);
+     2ac:	60 e0       	ldi	r22, 0x00	; 0
+     2ae:	80 91 12 01 	lds	r24, 0x0112	; 0x800112 <pinAmin>
+     2b2:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:125
+  digitalWrite(pinBmin, LOW);
+     2b6:	60 e0       	ldi	r22, 0x00	; 0
+     2b8:	80 91 10 01 	lds	r24, 0x0110	; 0x800110 <pinBmin>
+     2bc:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:127
+  return 2;
+}
+     2c0:	82 e0       	ldi	r24, 0x02	; 2
+     2c2:	90 e0       	ldi	r25, 0x00	; 0
+     2c4:	08 95       	ret
+
+000002c6 <corrimiento3()>:
+_Z12corrimiento3v():
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:130
+
+int corrimiento3(){
+  digitalWrite(pinAplus, LOW);
+     2c6:	60 e0       	ldi	r22, 0x00	; 0
+     2c8:	80 91 16 01 	lds	r24, 0x0116	; 0x800116 <pinAplus>
+     2cc:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:131
+  digitalWrite(pinBplus, LOW);
+     2d0:	60 e0       	ldi	r22, 0x00	; 0
+     2d2:	80 91 14 01 	lds	r24, 0x0114	; 0x800114 <pinBplus>
+     2d6:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:132
+  digitalWrite(pinAmin, HIGH);
+     2da:	61 e0       	ldi	r22, 0x01	; 1
+     2dc:	80 91 12 01 	lds	r24, 0x0112	; 0x800112 <pinAmin>
+     2e0:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:133
+  digitalWrite(pinBmin, LOW);
+     2e4:	60 e0       	ldi	r22, 0x00	; 0
+     2e6:	80 91 10 01 	lds	r24, 0x0110	; 0x800110 <pinBmin>
+     2ea:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:135
+  return 3;
+}
+     2ee:	83 e0       	ldi	r24, 0x03	; 3
+     2f0:	90 e0       	ldi	r25, 0x00	; 0
+     2f2:	08 95       	ret
+
+000002f4 <corrimiento4()>:
+_Z12corrimiento4v():
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:138
+
+int corrimiento4(){
+  digitalWrite(pinAplus, LOW);
+     2f4:	60 e0       	ldi	r22, 0x00	; 0
+     2f6:	80 91 16 01 	lds	r24, 0x0116	; 0x800116 <pinAplus>
+     2fa:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:139
+  digitalWrite(pinBplus, LOW);
+     2fe:	60 e0       	ldi	r22, 0x00	; 0
+     300:	80 91 14 01 	lds	r24, 0x0114	; 0x800114 <pinBplus>
+     304:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:140
+  digitalWrite(pinAmin, LOW);
+     308:	60 e0       	ldi	r22, 0x00	; 0
+     30a:	80 91 12 01 	lds	r24, 0x0112	; 0x800112 <pinAmin>
+     30e:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:141
+  digitalWrite(pinBmin, HIGH);
+     312:	61 e0       	ldi	r22, 0x01	; 1
+     314:	80 91 10 01 	lds	r24, 0x0110	; 0x800110 <pinBmin>
+     318:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:143
+  return 4;
+}
+     31c:	84 e0       	ldi	r24, 0x04	; 4
+     31e:	90 e0       	ldi	r25, 0x00	; 0
+     320:	08 95       	ret
+
+00000322 <cambioDireccion()>:
+_Z15cambioDireccionv():
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:145
+
+void cambioDireccion(){
+     322:	cf 92       	push	r12
+     324:	df 92       	push	r13
+     326:	ef 92       	push	r14
+     328:	ff 92       	push	r15
+     32a:	0f 93       	push	r16
+     32c:	1f 93       	push	r17
+     32e:	cf 93       	push	r28
+     330:	df 93       	push	r29
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:146
+  digitalWrite(rotorAplus, HIGH);
+     332:	80 e2       	ldi	r24, 0x20	; 32
+     334:	c8 2e       	mov	r12, r24
+     336:	81 e0       	ldi	r24, 0x01	; 1
+     338:	d8 2e       	mov	r13, r24
+     33a:	61 e0       	ldi	r22, 0x01	; 1
+     33c:	f6 01       	movw	r30, r12
+     33e:	80 81       	ld	r24, Z
+     340:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:147
+  digitalWrite(rotorBplus, LOW);
+     344:	94 e0       	ldi	r25, 0x04	; 4
+     346:	e9 2e       	mov	r14, r25
+     348:	91 e0       	ldi	r25, 0x01	; 1
+     34a:	f9 2e       	mov	r15, r25
+     34c:	60 e0       	ldi	r22, 0x00	; 0
+     34e:	f7 01       	movw	r30, r14
+     350:	80 81       	ld	r24, Z
+     352:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:148
+  digitalWrite(rotorAmin, LOW);
+     356:	02 e0       	ldi	r16, 0x02	; 2
+     358:	11 e0       	ldi	r17, 0x01	; 1
+     35a:	60 e0       	ldi	r22, 0x00	; 0
+     35c:	f8 01       	movw	r30, r16
+     35e:	80 81       	ld	r24, Z
+     360:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:149
+  digitalWrite(rotorBmin, LOW);
+     364:	c0 e0       	ldi	r28, 0x00	; 0
+     366:	d1 e0       	ldi	r29, 0x01	; 1
+     368:	60 e0       	ldi	r22, 0x00	; 0
+     36a:	88 81       	ld	r24, Y
+     36c:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:151
+
+  digitalWrite(rotorAplus, LOW);
+     370:	60 e0       	ldi	r22, 0x00	; 0
+     372:	f6 01       	movw	r30, r12
+     374:	80 81       	ld	r24, Z
+     376:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:152
+  digitalWrite(rotorBplus, HIGH);
+     37a:	61 e0       	ldi	r22, 0x01	; 1
+     37c:	f7 01       	movw	r30, r14
+     37e:	80 81       	ld	r24, Z
+     380:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:153
+  digitalWrite(rotorAmin, LOW);
+     384:	60 e0       	ldi	r22, 0x00	; 0
+     386:	f8 01       	movw	r30, r16
+     388:	80 81       	ld	r24, Z
+     38a:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:154
+  digitalWrite(rotorBmin, LOW);
+     38e:	60 e0       	ldi	r22, 0x00	; 0
+     390:	88 81       	ld	r24, Y
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:155
+}
+     392:	df 91       	pop	r29
+     394:	cf 91       	pop	r28
+     396:	1f 91       	pop	r17
+     398:	0f 91       	pop	r16
+     39a:	ff 90       	pop	r15
+     39c:	ef 90       	pop	r14
+     39e:	df 90       	pop	r13
+     3a0:	cf 90       	pop	r12
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:154
+  digitalWrite(rotorBmin, LOW);
+
+  digitalWrite(rotorAplus, LOW);
+  digitalWrite(rotorBplus, HIGH);
+  digitalWrite(rotorAmin, LOW);
+  digitalWrite(rotorBmin, LOW);
+     3a2:	0c 94 99 04 	jmp	0x932	; 0x932 <digitalWrite>
+
+000003a6 <cambioDireccion1()>:
+_Z16cambioDireccion1v():
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:157
+}
+
+void cambioDireccion1(){
+     3a6:	cf 92       	push	r12
+     3a8:	df 92       	push	r13
+     3aa:	ef 92       	push	r14
+     3ac:	ff 92       	push	r15
+     3ae:	0f 93       	push	r16
+     3b0:	1f 93       	push	r17
+     3b2:	cf 93       	push	r28
+     3b4:	df 93       	push	r29
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:158
+  digitalWrite(rotorAplus, LOW);
+     3b6:	80 e2       	ldi	r24, 0x20	; 32
+     3b8:	c8 2e       	mov	r12, r24
+     3ba:	81 e0       	ldi	r24, 0x01	; 1
+     3bc:	d8 2e       	mov	r13, r24
+     3be:	60 e0       	ldi	r22, 0x00	; 0
+     3c0:	f6 01       	movw	r30, r12
+     3c2:	80 81       	ld	r24, Z
+     3c4:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:159
+  digitalWrite(rotorBplus, LOW);
+     3c8:	94 e0       	ldi	r25, 0x04	; 4
+     3ca:	e9 2e       	mov	r14, r25
+     3cc:	91 e0       	ldi	r25, 0x01	; 1
+     3ce:	f9 2e       	mov	r15, r25
+     3d0:	60 e0       	ldi	r22, 0x00	; 0
+     3d2:	f7 01       	movw	r30, r14
+     3d4:	80 81       	ld	r24, Z
+     3d6:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:160
+  digitalWrite(rotorAmin, HIGH);
+     3da:	02 e0       	ldi	r16, 0x02	; 2
+     3dc:	11 e0       	ldi	r17, 0x01	; 1
+     3de:	61 e0       	ldi	r22, 0x01	; 1
+     3e0:	f8 01       	movw	r30, r16
+     3e2:	80 81       	ld	r24, Z
+     3e4:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:161
+  digitalWrite(rotorBmin, LOW);
+     3e8:	c0 e0       	ldi	r28, 0x00	; 0
+     3ea:	d1 e0       	ldi	r29, 0x01	; 1
+     3ec:	60 e0       	ldi	r22, 0x00	; 0
+     3ee:	88 81       	ld	r24, Y
+     3f0:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:163
+
+  digitalWrite(rotorAplus, LOW);
+     3f4:	60 e0       	ldi	r22, 0x00	; 0
+     3f6:	f6 01       	movw	r30, r12
+     3f8:	80 81       	ld	r24, Z
+     3fa:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:164
+  digitalWrite(rotorBplus, LOW);
+     3fe:	60 e0       	ldi	r22, 0x00	; 0
+     400:	f7 01       	movw	r30, r14
+     402:	80 81       	ld	r24, Z
+     404:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:165
+  digitalWrite(rotorAmin, LOW);
+     408:	60 e0       	ldi	r22, 0x00	; 0
+     40a:	f8 01       	movw	r30, r16
+     40c:	80 81       	ld	r24, Z
+     40e:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:166
+  digitalWrite(rotorBmin, HIGH);
+     412:	61 e0       	ldi	r22, 0x01	; 1
+     414:	88 81       	ld	r24, Y
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:167
+}
+     416:	df 91       	pop	r29
+     418:	cf 91       	pop	r28
+     41a:	1f 91       	pop	r17
+     41c:	0f 91       	pop	r16
+     41e:	ff 90       	pop	r15
+     420:	ef 90       	pop	r14
+     422:	df 90       	pop	r13
+     424:	cf 90       	pop	r12
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:166
+  digitalWrite(rotorBmin, LOW);
+
+  digitalWrite(rotorAplus, LOW);
+  digitalWrite(rotorBplus, LOW);
+  digitalWrite(rotorAmin, LOW);
+  digitalWrite(rotorBmin, HIGH);
+     426:	0c 94 99 04 	jmp	0x932	; 0x932 <digitalWrite>
+
+0000042a <forward()>:
+_Z7forwardv():
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:171
+}
+
+
+
+void forward(){
+     42a:	cf 92       	push	r12
+     42c:	df 92       	push	r13
+     42e:	ef 92       	push	r14
+     430:	ff 92       	push	r15
+     432:	0f 93       	push	r16
+     434:	1f 93       	push	r17
+     436:	cf 93       	push	r28
+     438:	df 93       	push	r29
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:172
+  digitalWrite(rotorAplus, HIGH);
+     43a:	80 e2       	ldi	r24, 0x20	; 32
+     43c:	c8 2e       	mov	r12, r24
+     43e:	81 e0       	ldi	r24, 0x01	; 1
+     440:	d8 2e       	mov	r13, r24
+     442:	61 e0       	ldi	r22, 0x01	; 1
+     444:	f6 01       	movw	r30, r12
+     446:	80 81       	ld	r24, Z
+     448:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:173
+  digitalWrite(rotorBplus, LOW);
+     44c:	94 e0       	ldi	r25, 0x04	; 4
+     44e:	e9 2e       	mov	r14, r25
+     450:	91 e0       	ldi	r25, 0x01	; 1
+     452:	f9 2e       	mov	r15, r25
+     454:	60 e0       	ldi	r22, 0x00	; 0
+     456:	f7 01       	movw	r30, r14
+     458:	80 81       	ld	r24, Z
+     45a:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:174
+  digitalWrite(rotorAmin, LOW);
+     45e:	02 e0       	ldi	r16, 0x02	; 2
+     460:	11 e0       	ldi	r17, 0x01	; 1
+     462:	60 e0       	ldi	r22, 0x00	; 0
+     464:	f8 01       	movw	r30, r16
+     466:	80 81       	ld	r24, Z
+     468:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:175
+  digitalWrite(rotorBmin, LOW);
+     46c:	c0 e0       	ldi	r28, 0x00	; 0
+     46e:	d1 e0       	ldi	r29, 0x01	; 1
+     470:	60 e0       	ldi	r22, 0x00	; 0
+     472:	88 81       	ld	r24, Y
+     474:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:177
+
+  digitalWrite(rotorAplus, LOW);
+     478:	60 e0       	ldi	r22, 0x00	; 0
+     47a:	f6 01       	movw	r30, r12
+     47c:	80 81       	ld	r24, Z
+     47e:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:178
+  digitalWrite(rotorBplus, LOW);
+     482:	60 e0       	ldi	r22, 0x00	; 0
+     484:	f7 01       	movw	r30, r14
+     486:	80 81       	ld	r24, Z
+     488:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:179
+  digitalWrite(rotorAmin, LOW);
+     48c:	60 e0       	ldi	r22, 0x00	; 0
+     48e:	f8 01       	movw	r30, r16
+     490:	80 81       	ld	r24, Z
+     492:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:180
+  digitalWrite(rotorBmin, HIGH);
+     496:	61 e0       	ldi	r22, 0x01	; 1
+     498:	88 81       	ld	r24, Y
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:181
+}
+     49a:	df 91       	pop	r29
+     49c:	cf 91       	pop	r28
+     49e:	1f 91       	pop	r17
+     4a0:	0f 91       	pop	r16
+     4a2:	ff 90       	pop	r15
+     4a4:	ef 90       	pop	r14
+     4a6:	df 90       	pop	r13
+     4a8:	cf 90       	pop	r12
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:180
+  digitalWrite(rotorBmin, LOW);
+
+  digitalWrite(rotorAplus, LOW);
+  digitalWrite(rotorBplus, LOW);
+  digitalWrite(rotorAmin, LOW);
+  digitalWrite(rotorBmin, HIGH);
+     4aa:	0c 94 99 04 	jmp	0x932	; 0x932 <digitalWrite>
+
+000004ae <forward1()>:
+_Z8forward1v():
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:183
+}
+
+void forward1(){
+     4ae:	cf 92       	push	r12
+     4b0:	df 92       	push	r13
+     4b2:	ef 92       	push	r14
+     4b4:	ff 92       	push	r15
+     4b6:	0f 93       	push	r16
+     4b8:	1f 93       	push	r17
+     4ba:	cf 93       	push	r28
+     4bc:	df 93       	push	r29
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:184
+  digitalWrite(rotorAplus, LOW);
+     4be:	80 e2       	ldi	r24, 0x20	; 32
+     4c0:	c8 2e       	mov	r12, r24
+     4c2:	81 e0       	ldi	r24, 0x01	; 1
+     4c4:	d8 2e       	mov	r13, r24
+     4c6:	60 e0       	ldi	r22, 0x00	; 0
+     4c8:	f6 01       	movw	r30, r12
+     4ca:	80 81       	ld	r24, Z
+     4cc:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:185
+  digitalWrite(rotorBplus, HIGH);
+     4d0:	94 e0       	ldi	r25, 0x04	; 4
+     4d2:	e9 2e       	mov	r14, r25
+     4d4:	91 e0       	ldi	r25, 0x01	; 1
+     4d6:	f9 2e       	mov	r15, r25
+     4d8:	61 e0       	ldi	r22, 0x01	; 1
+     4da:	f7 01       	movw	r30, r14
+     4dc:	80 81       	ld	r24, Z
+     4de:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:186
+  digitalWrite(rotorAmin, LOW);
+     4e2:	02 e0       	ldi	r16, 0x02	; 2
+     4e4:	11 e0       	ldi	r17, 0x01	; 1
+     4e6:	60 e0       	ldi	r22, 0x00	; 0
+     4e8:	f8 01       	movw	r30, r16
+     4ea:	80 81       	ld	r24, Z
+     4ec:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:187
+  digitalWrite(rotorBmin, LOW);
+     4f0:	c0 e0       	ldi	r28, 0x00	; 0
+     4f2:	d1 e0       	ldi	r29, 0x01	; 1
+     4f4:	60 e0       	ldi	r22, 0x00	; 0
+     4f6:	88 81       	ld	r24, Y
+     4f8:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:189
+
+  digitalWrite(rotorAplus, LOW);
+     4fc:	60 e0       	ldi	r22, 0x00	; 0
+     4fe:	f6 01       	movw	r30, r12
+     500:	80 81       	ld	r24, Z
+     502:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:190
+  digitalWrite(rotorBplus, LOW);
+     506:	60 e0       	ldi	r22, 0x00	; 0
+     508:	f7 01       	movw	r30, r14
+     50a:	80 81       	ld	r24, Z
+     50c:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:191
+  digitalWrite(rotorAmin, HIGH);
+     510:	61 e0       	ldi	r22, 0x01	; 1
+     512:	f8 01       	movw	r30, r16
+     514:	80 81       	ld	r24, Z
+     516:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:192
+  digitalWrite(rotorBmin, LOW);
+     51a:	60 e0       	ldi	r22, 0x00	; 0
+     51c:	88 81       	ld	r24, Y
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:193
+}
+     51e:	df 91       	pop	r29
+     520:	cf 91       	pop	r28
+     522:	1f 91       	pop	r17
+     524:	0f 91       	pop	r16
+     526:	ff 90       	pop	r15
+     528:	ef 90       	pop	r14
+     52a:	df 90       	pop	r13
+     52c:	cf 90       	pop	r12
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:192
+  digitalWrite(rotorBmin, LOW);
+
+  digitalWrite(rotorAplus, LOW);
+  digitalWrite(rotorBplus, LOW);
+  digitalWrite(rotorAmin, HIGH);
+  digitalWrite(rotorBmin, LOW);
+     52e:	0c 94 99 04 	jmp	0x932	; 0x932 <digitalWrite>
+
+00000532 <loop>:
+loop():
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:43
+  
+  pinMode(led, OUTPUT);
+  pinMode(ledStop, OUTPUT);
+}
+
+void loop() {
+     532:	cf 93       	push	r28
+     534:	df 93       	push	r29
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:44
+  float distancia = sensor();
+     536:	0e 94 0b 01 	call	0x216	; 0x216 <sensor()>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:46
+  
+  if(distancia < 15){
+     53a:	20 e0       	ldi	r18, 0x00	; 0
+     53c:	30 e0       	ldi	r19, 0x00	; 0
+     53e:	40 e7       	ldi	r20, 0x70	; 112
+     540:	51 e4       	ldi	r21, 0x41	; 65
+     542:	0e 94 08 08 	call	0x1010	; 0x1010 <__cmpsf2>
+     546:	87 ff       	sbrs	r24, 7
+     548:	89 c0       	rjmp	.+274    	; 0x65c <loop+0x12a>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:48
+
+    if(atorado >= 4){
+     54a:	80 91 1a 01 	lds	r24, 0x011A	; 0x80011a <__data_end>
+     54e:	90 91 1b 01 	lds	r25, 0x011B	; 0x80011b <__data_end+0x1>
+     552:	04 97       	sbiw	r24, 0x04	; 4
+     554:	3c f1       	brlt	.+78     	; 0x5a4 <loop+0x72>
+     556:	c5 e0       	ldi	r28, 0x05	; 5
+     558:	d0 e0       	ldi	r29, 0x00	; 0
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:50 (discriminator 2)
+      for(int alarma = 0;alarma < 5; alarma++){
+        digitalWrite(ledStop,HIGH);
+     55a:	61 e0       	ldi	r22, 0x01	; 1
+     55c:	80 91 08 01 	lds	r24, 0x0108	; 0x800108 <ledStop>
+     560:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:51 (discriminator 2)
+        tone(bocina ,5919.9108);
+     564:	20 e0       	ldi	r18, 0x00	; 0
+     566:	30 e0       	ldi	r19, 0x00	; 0
+     568:	a9 01       	movw	r20, r18
+     56a:	6f e1       	ldi	r22, 0x1F	; 31
+     56c:	77 e1       	ldi	r23, 0x17	; 23
+     56e:	80 91 06 01 	lds	r24, 0x0106	; 0x800106 <bocina>
+     572:	0e 94 09 05 	call	0xa12	; 0xa12 <tone(unsigned char, unsigned int, unsigned long)>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:52 (discriminator 2)
+        delay(500);
+     576:	64 ef       	ldi	r22, 0xF4	; 244
+     578:	71 e0       	ldi	r23, 0x01	; 1
+     57a:	80 e0       	ldi	r24, 0x00	; 0
+     57c:	90 e0       	ldi	r25, 0x00	; 0
+     57e:	0e 94 d1 03 	call	0x7a2	; 0x7a2 <delay>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:53 (discriminator 2)
+        noTone(bocina);
+     582:	80 91 06 01 	lds	r24, 0x0106	; 0x800106 <bocina>
+     586:	0e 94 86 07 	call	0xf0c	; 0xf0c <noTone(unsigned char)>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:54 (discriminator 2)
+        digitalWrite(ledStop,LOW);
+     58a:	60 e0       	ldi	r22, 0x00	; 0
+     58c:	80 91 08 01 	lds	r24, 0x0108	; 0x800108 <ledStop>
+     590:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:55 (discriminator 2)
+        delay(500);
+     594:	64 ef       	ldi	r22, 0xF4	; 244
+     596:	71 e0       	ldi	r23, 0x01	; 1
+     598:	80 e0       	ldi	r24, 0x00	; 0
+     59a:	90 e0       	ldi	r25, 0x00	; 0
+     59c:	0e 94 d1 03 	call	0x7a2	; 0x7a2 <delay>
+     5a0:	21 97       	sbiw	r28, 0x01	; 1
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:49 (discriminator 2)
+  float distancia = sensor();
+  
+  if(distancia < 15){
+
+    if(atorado >= 4){
+      for(int alarma = 0;alarma < 5; alarma++){
+     5a2:	d9 f6       	brne	.-74     	; 0x55a <loop+0x28>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:59
+        digitalWrite(ledStop,LOW);
+        delay(500);
+      }
+    }
+    
+    flag++;
+     5a4:	80 91 1e 01 	lds	r24, 0x011E	; 0x80011e <flag>
+     5a8:	90 91 1f 01 	lds	r25, 0x011F	; 0x80011f <flag+0x1>
+     5ac:	01 96       	adiw	r24, 0x01	; 1
+     5ae:	90 93 1f 01 	sts	0x011F, r25	; 0x80011f <flag+0x1>
+     5b2:	80 93 1e 01 	sts	0x011E, r24	; 0x80011e <flag>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:60
+    if(flag%2 != 0){
+     5b6:	80 ff       	sbrs	r24, 0
+     5b8:	4c c0       	rjmp	.+152    	; 0x652 <loop+0x120>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:61
+      cambioDireccion();  
+     5ba:	0e 94 91 01 	call	0x322	; 0x322 <cambioDireccion()>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:62
+      flag2 = 1;
+     5be:	81 e0       	ldi	r24, 0x01	; 1
+     5c0:	90 e0       	ldi	r25, 0x00	; 0
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:65
+    }else {
+      cambioDireccion1();
+      flag2 = 2;
+     5c2:	90 93 1d 01 	sts	0x011D, r25	; 0x80011d <flag2+0x1>
+     5c6:	80 93 1c 01 	sts	0x011C, r24	; 0x80011c <flag2>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:68
+    }
+
+    delay(1000);
+     5ca:	68 ee       	ldi	r22, 0xE8	; 232
+     5cc:	73 e0       	ldi	r23, 0x03	; 3
+     5ce:	80 e0       	ldi	r24, 0x00	; 0
+     5d0:	90 e0       	ldi	r25, 0x00	; 0
+     5d2:	0e 94 d1 03 	call	0x7a2	; 0x7a2 <delay>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:69
+    corrimiento1();
+     5d6:	0e 94 35 01 	call	0x26a	; 0x26a <corrimiento1()>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:70
+    delay(500);
+     5da:	64 ef       	ldi	r22, 0xF4	; 244
+     5dc:	71 e0       	ldi	r23, 0x01	; 1
+     5de:	80 e0       	ldi	r24, 0x00	; 0
+     5e0:	90 e0       	ldi	r25, 0x00	; 0
+     5e2:	0e 94 d1 03 	call	0x7a2	; 0x7a2 <delay>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:71
+    corrimiento2();
+     5e6:	0e 94 4c 01 	call	0x298	; 0x298 <corrimiento2()>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:72
+    delay(500);
+     5ea:	64 ef       	ldi	r22, 0xF4	; 244
+     5ec:	71 e0       	ldi	r23, 0x01	; 1
+     5ee:	80 e0       	ldi	r24, 0x00	; 0
+     5f0:	90 e0       	ldi	r25, 0x00	; 0
+     5f2:	0e 94 d1 03 	call	0x7a2	; 0x7a2 <delay>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:73
+    corrimiento3();
+     5f6:	0e 94 63 01 	call	0x2c6	; 0x2c6 <corrimiento3()>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:74
+    delay(500);
+     5fa:	64 ef       	ldi	r22, 0xF4	; 244
+     5fc:	71 e0       	ldi	r23, 0x01	; 1
+     5fe:	80 e0       	ldi	r24, 0x00	; 0
+     600:	90 e0       	ldi	r25, 0x00	; 0
+     602:	0e 94 d1 03 	call	0x7a2	; 0x7a2 <delay>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:75
+    corrimiento4();
+     606:	0e 94 7a 01 	call	0x2f4	; 0x2f4 <corrimiento4()>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:77
+
+    digitalWrite(led,HIGH);
+     60a:	61 e0       	ldi	r22, 0x01	; 1
+     60c:	80 91 0a 01 	lds	r24, 0x010A	; 0x80010a <led>
+     610:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:78
+    delay(2000);
+     614:	60 ed       	ldi	r22, 0xD0	; 208
+     616:	77 e0       	ldi	r23, 0x07	; 7
+     618:	80 e0       	ldi	r24, 0x00	; 0
+     61a:	90 e0       	ldi	r25, 0x00	; 0
+     61c:	0e 94 d1 03 	call	0x7a2	; 0x7a2 <delay>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:79
+    digitalWrite(led,LOW);
+     620:	60 e0       	ldi	r22, 0x00	; 0
+     622:	80 91 0a 01 	lds	r24, 0x010A	; 0x80010a <led>
+     626:	0e 94 99 04 	call	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:80
+    distancia = sensor();
+     62a:	0e 94 0b 01 	call	0x216	; 0x216 <sensor()>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:81
+    delay(2000);
+     62e:	60 ed       	ldi	r22, 0xD0	; 208
+     630:	77 e0       	ldi	r23, 0x07	; 7
+     632:	80 e0       	ldi	r24, 0x00	; 0
+     634:	90 e0       	ldi	r25, 0x00	; 0
+     636:	0e 94 d1 03 	call	0x7a2	; 0x7a2 <delay>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:82
+    atorado++;
+     63a:	80 91 1a 01 	lds	r24, 0x011A	; 0x80011a <__data_end>
+     63e:	90 91 1b 01 	lds	r25, 0x011B	; 0x80011b <__data_end+0x1>
+     642:	01 96       	adiw	r24, 0x01	; 1
+     644:	90 93 1b 01 	sts	0x011B, r25	; 0x80011b <__data_end+0x1>
+     648:	80 93 1a 01 	sts	0x011A, r24	; 0x80011a <__data_end>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:100
+    delay(500);
+    corrimiento4();
+    delay(500);
+  }
+ 
+}
+     64c:	df 91       	pop	r29
+     64e:	cf 91       	pop	r28
+     650:	08 95       	ret
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:64
+    flag++;
+    if(flag%2 != 0){
+      cambioDireccion();  
+      flag2 = 1;
+    }else {
+      cambioDireccion1();
+     652:	0e 94 d3 01 	call	0x3a6	; 0x3a6 <cambioDireccion1()>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:65
+      flag2 = 2;
+     656:	82 e0       	ldi	r24, 0x02	; 2
+     658:	90 e0       	ldi	r25, 0x00	; 0
+     65a:	b3 cf       	rjmp	.-154    	; 0x5c2 <loop+0x90>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:84
+    digitalWrite(led,LOW);
+    distancia = sensor();
+    delay(2000);
+    atorado++;
+  }else{
+    atorado = 0;
+     65c:	10 92 1b 01 	sts	0x011B, r1	; 0x80011b <__data_end+0x1>
+     660:	10 92 1a 01 	sts	0x011A, r1	; 0x80011a <__data_end>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:85
+    if(flag2 == 1){
+     664:	80 91 1c 01 	lds	r24, 0x011C	; 0x80011c <flag2>
+     668:	90 91 1d 01 	lds	r25, 0x011D	; 0x80011d <flag2+0x1>
+     66c:	81 30       	cpi	r24, 0x01	; 1
+     66e:	91 05       	cpc	r25, r1
+     670:	21 f5       	brne	.+72     	; 0x6ba <loop+0x188>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:86
+      forward();  
+     672:	0e 94 15 02 	call	0x42a	; 0x42a <forward()>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:90
+    }else if(flag2 == 2) {
+      forward1();
+    }
+    corrimiento1();
+     676:	0e 94 35 01 	call	0x26a	; 0x26a <corrimiento1()>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:91
+    delay(500);
+     67a:	64 ef       	ldi	r22, 0xF4	; 244
+     67c:	71 e0       	ldi	r23, 0x01	; 1
+     67e:	80 e0       	ldi	r24, 0x00	; 0
+     680:	90 e0       	ldi	r25, 0x00	; 0
+     682:	0e 94 d1 03 	call	0x7a2	; 0x7a2 <delay>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:92
+    corrimiento2();
+     686:	0e 94 4c 01 	call	0x298	; 0x298 <corrimiento2()>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:93
+    delay(500);
+     68a:	64 ef       	ldi	r22, 0xF4	; 244
+     68c:	71 e0       	ldi	r23, 0x01	; 1
+     68e:	80 e0       	ldi	r24, 0x00	; 0
+     690:	90 e0       	ldi	r25, 0x00	; 0
+     692:	0e 94 d1 03 	call	0x7a2	; 0x7a2 <delay>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:94
+    corrimiento3();
+     696:	0e 94 63 01 	call	0x2c6	; 0x2c6 <corrimiento3()>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:95
+    delay(500);
+     69a:	64 ef       	ldi	r22, 0xF4	; 244
+     69c:	71 e0       	ldi	r23, 0x01	; 1
+     69e:	80 e0       	ldi	r24, 0x00	; 0
+     6a0:	90 e0       	ldi	r25, 0x00	; 0
+     6a2:	0e 94 d1 03 	call	0x7a2	; 0x7a2 <delay>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:96
+    corrimiento4();
+     6a6:	0e 94 7a 01 	call	0x2f4	; 0x2f4 <corrimiento4()>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:97
+    delay(500);
+     6aa:	64 ef       	ldi	r22, 0xF4	; 244
+     6ac:	71 e0       	ldi	r23, 0x01	; 1
+     6ae:	80 e0       	ldi	r24, 0x00	; 0
+     6b0:	90 e0       	ldi	r25, 0x00	; 0
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:100
+  }
+ 
+}
+     6b2:	df 91       	pop	r29
+     6b4:	cf 91       	pop	r28
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:97
+    corrimiento2();
+    delay(500);
+    corrimiento3();
+    delay(500);
+    corrimiento4();
+    delay(500);
+     6b6:	0c 94 d1 03 	jmp	0x7a2	; 0x7a2 <delay>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:87
+    atorado++;
+  }else{
+    atorado = 0;
+    if(flag2 == 1){
+      forward();  
+    }else if(flag2 == 2) {
+     6ba:	02 97       	sbiw	r24, 0x02	; 2
+     6bc:	e1 f6       	brne	.-72     	; 0x676 <loop+0x144>
+C:\Users\serpi\Desktop\Escuela\ArquitecturaDeComp\Arduino\ProyectoFinal/ProyectoFinal.ino:88
+      forward1();
+     6be:	0e 94 57 02 	call	0x4ae	; 0x4ae <forward1()>
+     6c2:	d9 cf       	rjmp	.-78     	; 0x676 <loop+0x144>
+
+000006c4 <__vector_16>:
+__vector_16():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring.c:939
+    "   brne 1b"                     // 2 cycles
+    : /* no outputs */
+    : "w" (us)
+  );
+  // return = 4 cycles
+}
+     6c4:	1f 92       	push	r1
+     6c6:	0f 92       	push	r0
+     6c8:	0f b6       	in	r0, 0x3f	; 63
+     6ca:	0f 92       	push	r0
+     6cc:	11 24       	eor	r1, r1
+     6ce:	2f 93       	push	r18
+     6d0:	3f 93       	push	r19
+     6d2:	8f 93       	push	r24
+     6d4:	9f 93       	push	r25
+     6d6:	af 93       	push	r26
+     6d8:	bf 93       	push	r27
+     6da:	80 91 27 01 	lds	r24, 0x0127	; 0x800127 <timer0_millis>
+     6de:	90 91 28 01 	lds	r25, 0x0128	; 0x800128 <timer0_millis+0x1>
+     6e2:	a0 91 29 01 	lds	r26, 0x0129	; 0x800129 <timer0_millis+0x2>
+     6e6:	b0 91 2a 01 	lds	r27, 0x012A	; 0x80012a <timer0_millis+0x3>
+     6ea:	30 91 26 01 	lds	r19, 0x0126	; 0x800126 <timer0_fract>
+     6ee:	2c e0       	ldi	r18, 0x0C	; 12
+     6f0:	23 0f       	add	r18, r19
+     6f2:	2d 37       	cpi	r18, 0x7D	; 125
+     6f4:	68 f1       	brcs	.+90     	; 0x750 <__vector_16+0x8c>
+     6f6:	2f e8       	ldi	r18, 0x8F	; 143
+     6f8:	23 0f       	add	r18, r19
+     6fa:	05 96       	adiw	r24, 0x05	; 5
+     6fc:	a1 1d       	adc	r26, r1
+     6fe:	b1 1d       	adc	r27, r1
+     700:	20 93 26 01 	sts	0x0126, r18	; 0x800126 <timer0_fract>
+     704:	80 93 27 01 	sts	0x0127, r24	; 0x800127 <timer0_millis>
+     708:	90 93 28 01 	sts	0x0128, r25	; 0x800128 <timer0_millis+0x1>
+     70c:	a0 93 29 01 	sts	0x0129, r26	; 0x800129 <timer0_millis+0x2>
+     710:	b0 93 2a 01 	sts	0x012A, r27	; 0x80012a <timer0_millis+0x3>
+     714:	80 91 22 01 	lds	r24, 0x0122	; 0x800122 <timer0_overflow_count>
+     718:	90 91 23 01 	lds	r25, 0x0123	; 0x800123 <timer0_overflow_count+0x1>
+     71c:	a0 91 24 01 	lds	r26, 0x0124	; 0x800124 <timer0_overflow_count+0x2>
+     720:	b0 91 25 01 	lds	r27, 0x0125	; 0x800125 <timer0_overflow_count+0x3>
+     724:	01 96       	adiw	r24, 0x01	; 1
+     726:	a1 1d       	adc	r26, r1
+     728:	b1 1d       	adc	r27, r1
+     72a:	80 93 22 01 	sts	0x0122, r24	; 0x800122 <timer0_overflow_count>
+     72e:	90 93 23 01 	sts	0x0123, r25	; 0x800123 <timer0_overflow_count+0x1>
+     732:	a0 93 24 01 	sts	0x0124, r26	; 0x800124 <timer0_overflow_count+0x2>
+     736:	b0 93 25 01 	sts	0x0125, r27	; 0x800125 <timer0_overflow_count+0x3>
+     73a:	bf 91       	pop	r27
+     73c:	af 91       	pop	r26
+     73e:	9f 91       	pop	r25
+     740:	8f 91       	pop	r24
+     742:	3f 91       	pop	r19
+     744:	2f 91       	pop	r18
+     746:	0f 90       	pop	r0
+     748:	0f be       	out	0x3f, r0	; 63
+     74a:	0f 90       	pop	r0
+     74c:	1f 90       	pop	r1
+     74e:	18 95       	reti
+     750:	04 96       	adiw	r24, 0x04	; 4
+     752:	a1 1d       	adc	r26, r1
+     754:	b1 1d       	adc	r27, r1
+     756:	d4 cf       	rjmp	.-88     	; 0x700 <__vector_16+0x3c>
+
+00000758 <micros>:
+micros():
+     758:	3f b7       	in	r19, 0x3f	; 63
+     75a:	f8 94       	cli
+     75c:	80 91 22 01 	lds	r24, 0x0122	; 0x800122 <timer0_overflow_count>
+     760:	90 91 23 01 	lds	r25, 0x0123	; 0x800123 <timer0_overflow_count+0x1>
+     764:	a0 91 24 01 	lds	r26, 0x0124	; 0x800124 <timer0_overflow_count+0x2>
+     768:	b0 91 25 01 	lds	r27, 0x0125	; 0x800125 <timer0_overflow_count+0x3>
+     76c:	26 b5       	in	r18, 0x26	; 38
+     76e:	a8 9b       	sbis	0x15, 0	; 21
+     770:	05 c0       	rjmp	.+10     	; 0x77c <micros+0x24>
+     772:	2f 3f       	cpi	r18, 0xFF	; 255
+     774:	19 f0       	breq	.+6      	; 0x77c <micros+0x24>
+     776:	01 96       	adiw	r24, 0x01	; 1
+     778:	a1 1d       	adc	r26, r1
+     77a:	b1 1d       	adc	r27, r1
+     77c:	3f bf       	out	0x3f, r19	; 63
+     77e:	ba 2f       	mov	r27, r26
+     780:	a9 2f       	mov	r26, r25
+     782:	98 2f       	mov	r25, r24
+     784:	88 27       	eor	r24, r24
+     786:	bc 01       	movw	r22, r24
+     788:	cd 01       	movw	r24, r26
+     78a:	62 0f       	add	r22, r18
+     78c:	71 1d       	adc	r23, r1
+     78e:	81 1d       	adc	r24, r1
+     790:	91 1d       	adc	r25, r1
+     792:	44 e0       	ldi	r20, 0x04	; 4
+     794:	66 0f       	add	r22, r22
+     796:	77 1f       	adc	r23, r23
+     798:	88 1f       	adc	r24, r24
+     79a:	99 1f       	adc	r25, r25
+     79c:	4a 95       	dec	r20
+     79e:	d1 f7       	brne	.-12     	; 0x794 <micros+0x3c>
+     7a0:	08 95       	ret
+
+000007a2 <delay>:
+delay():
+     7a2:	8f 92       	push	r8
+     7a4:	9f 92       	push	r9
+     7a6:	af 92       	push	r10
+     7a8:	bf 92       	push	r11
+     7aa:	cf 92       	push	r12
+     7ac:	df 92       	push	r13
+     7ae:	ef 92       	push	r14
+     7b0:	ff 92       	push	r15
+     7b2:	6b 01       	movw	r12, r22
+     7b4:	7c 01       	movw	r14, r24
+     7b6:	0e 94 ac 03 	call	0x758	; 0x758 <micros>
+     7ba:	4b 01       	movw	r8, r22
+     7bc:	5c 01       	movw	r10, r24
+     7be:	c1 14       	cp	r12, r1
+     7c0:	d1 04       	cpc	r13, r1
+     7c2:	e1 04       	cpc	r14, r1
+     7c4:	f1 04       	cpc	r15, r1
+     7c6:	e9 f0       	breq	.+58     	; 0x802 <delay+0x60>
+     7c8:	0e 94 07 08 	call	0x100e	; 0x100e <yield>
+     7cc:	0e 94 ac 03 	call	0x758	; 0x758 <micros>
+     7d0:	68 19       	sub	r22, r8
+     7d2:	79 09       	sbc	r23, r9
+     7d4:	8a 09       	sbc	r24, r10
+     7d6:	9b 09       	sbc	r25, r11
+     7d8:	68 3e       	cpi	r22, 0xE8	; 232
+     7da:	73 40       	sbci	r23, 0x03	; 3
+     7dc:	81 05       	cpc	r24, r1
+     7de:	91 05       	cpc	r25, r1
+     7e0:	70 f3       	brcs	.-36     	; 0x7be <delay+0x1c>
+     7e2:	21 e0       	ldi	r18, 0x01	; 1
+     7e4:	c2 1a       	sub	r12, r18
+     7e6:	d1 08       	sbc	r13, r1
+     7e8:	e1 08       	sbc	r14, r1
+     7ea:	f1 08       	sbc	r15, r1
+     7ec:	88 ee       	ldi	r24, 0xE8	; 232
+     7ee:	88 0e       	add	r8, r24
+     7f0:	83 e0       	ldi	r24, 0x03	; 3
+     7f2:	98 1e       	adc	r9, r24
+     7f4:	a1 1c       	adc	r10, r1
+     7f6:	b1 1c       	adc	r11, r1
+     7f8:	c1 14       	cp	r12, r1
+     7fa:	d1 04       	cpc	r13, r1
+     7fc:	e1 04       	cpc	r14, r1
+     7fe:	f1 04       	cpc	r15, r1
+     800:	29 f7       	brne	.-54     	; 0x7cc <delay+0x2a>
+     802:	ff 90       	pop	r15
+     804:	ef 90       	pop	r14
+     806:	df 90       	pop	r13
+     808:	cf 90       	pop	r12
+     80a:	bf 90       	pop	r11
+     80c:	af 90       	pop	r10
+     80e:	9f 90       	pop	r9
+     810:	8f 90       	pop	r8
+     812:	08 95       	ret
+
+00000814 <init>:
+init():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring.c:945
+
+void init()
+{
+  // this needs to be called before setup() or some functions won't
+  // work there
+  sei();
+     814:	78 94       	sei
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring.c:949
+
+  // Set internal oscillator prescaler if defined (in boards.txt)
+#if defined(CLKPR) && defined(OSC_PRESCALER)
+  CLKPR = 0x80;          // Enable prescaler
+     816:	e1 e6       	ldi	r30, 0x61	; 97
+     818:	f0 e0       	ldi	r31, 0x00	; 0
+     81a:	80 e8       	ldi	r24, 0x80	; 128
+     81c:	80 83       	st	Z, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring.c:950
+  CLKPR = OSC_PRESCALER; // Set prescaler
+     81e:	81 e0       	ldi	r24, 0x01	; 1
+     820:	80 83       	st	Z, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring.c:957
+
+  // On the ATmega168, timer 0 is also used for fast hardware pwm
+  // (using phase-correct PWM would mean that timer 0 overflowed half as often
+  // resulting in different millis() behavior on the ATmega8 and ATmega168)
+#if defined(TCCR0A) && defined(WGM01)
+  TCCR0A |= _BV(WGM01) | _BV(WGM00);
+     822:	84 b5       	in	r24, 0x24	; 36
+     824:	83 60       	ori	r24, 0x03	; 3
+     826:	84 bd       	out	0x24, r24	; 36
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring.c:972
+  #if defined(WGM00) && defined(WGM01) // The ATmega8 doesn't have WGM00 and WGM01
+    TCCR0 |= _BV(WGM01) | _BV(WGM00);
+  #endif
+#elif defined(TCCR0B) && defined(CS01) && defined(CS00)
+  // This combination is for the standard 168/328/640/1280/1281/2560/2561
+  TCCR0B |= _BV(CS01) | _BV(CS00);
+     828:	85 b5       	in	r24, 0x25	; 37
+     82a:	83 60       	ori	r24, 0x03	; 3
+     82c:	85 bd       	out	0x25, r24	; 37
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring.c:984
+
+// Enable timer 0 overflow interrupt
+#if defined(TIMSK) && defined(TOIE0)
+  TIMSK |= _BV(TOIE0);
+#elif defined(TIMSK0) && defined(TOIE0)
+  TIMSK0 |= _BV(TOIE0);
+     82e:	ee e6       	ldi	r30, 0x6E	; 110
+     830:	f0 e0       	ldi	r31, 0x00	; 0
+     832:	80 81       	ld	r24, Z
+     834:	81 60       	ori	r24, 0x01	; 1
+     836:	80 83       	st	Z, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring.c:995
+// this is better for motors as it ensures an even waveform
+// note, however, that fast pwm mode can achieve a frequency of up
+// 8 MHz (with a 16 MHz clock) at 50% duty cycle
+
+#if defined(TCCR1B) && defined(CS11) && defined(CS10)
+  TCCR1B = _BV(CS11); // Set timer 1 prescale factor to 64
+     838:	82 e0       	ldi	r24, 0x02	; 2
+     83a:	80 93 81 00 	sts	0x0081, r24	; 0x800081 <__DATA_REGION_ORIGIN__+0x21>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring.c:1006
+#if F_CPU >= 8000000L
+  TCCR1 |= _BV(CS10);
+#endif
+#endif
+#if defined(TCCR1A) && defined(WGM10)
+  TCCR1A |= _BV(WGM10); // Put timer 1 in 8-bit phase correct pwm mode
+     83e:	e0 e8       	ldi	r30, 0x80	; 128
+     840:	f0 e0       	ldi	r31, 0x00	; 0
+     842:	80 81       	ld	r24, Z
+     844:	81 60       	ori	r24, 0x01	; 1
+     846:	80 83       	st	Z, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring.c:1013
+
+// Set timer 2 prescale factor to 64
+#if defined(TCCR2) && defined(CS22)
+  TCCR2 |= _BV(CS22);
+#elif defined(TCCR2B) && defined(CS22)
+  TCCR2B |= _BV(CS22);
+     848:	e1 eb       	ldi	r30, 0xB1	; 177
+     84a:	f0 e0       	ldi	r31, 0x00	; 0
+     84c:	80 81       	ld	r24, Z
+     84e:	84 60       	ori	r24, 0x04	; 4
+     850:	80 83       	st	Z, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring.c:1022
+
+// Configure timer 2 for phase correct pwm (8-bit)
+#if defined(TCCR2) && defined(WGM20)
+  TCCR2 |= _BV(WGM20);
+#elif defined(TCCR2A) && defined(WGM20)
+  TCCR2A |= _BV(WGM20);
+     852:	e0 eb       	ldi	r30, 0xB0	; 176
+     854:	f0 e0       	ldi	r31, 0x00	; 0
+     856:	80 81       	ld	r24, Z
+     858:	81 60       	ori	r24, 0x01	; 1
+     85a:	80 83       	st	Z, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring.c:1054
+  #if F_CPU >= 16000000 // 16 MHz / 128 = 125 KHz
+    ADCSRA = _BV(ADPS2) | _BV(ADPS1) | _BV(ADPS0) | _BV(ADEN);
+  #elif F_CPU >= 8000000 // 8 MHz / 64 = 125 KHz
+    ADCSRA = _BV(ADPS2) | _BV(ADPS1) | _BV(ADEN);
+  #elif F_CPU >= 4000000 // 4 MHz / 32 = 125 KHz
+    ADCSRA = _BV(ADPS2) | _BV(ADPS0) | _BV(ADEN);
+     85c:	85 e8       	ldi	r24, 0x85	; 133
+     85e:	80 93 7a 00 	sts	0x007A, r24	; 0x80007a <__DATA_REGION_ORIGIN__+0x1a>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring.c:1070
+  // here so they can be used as normal digital i/o; they will be
+  // reconnected in Serial.begin()
+#if defined(UCSRB)
+  UCSRB = 0;
+#elif defined(UCSR0B)
+  UCSR0B = 0;
+     862:	10 92 c1 00 	sts	0x00C1, r1	; 0x8000c1 <__DATA_REGION_ORIGIN__+0x61>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring.c:1072
+#endif
+}
+     866:	08 95       	ret
+
+00000868 <turnOffPWM>:
+turnOffPWM():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:77
+//
+//static inline void turnOffPWM(uint8_t timer) __attribute__ ((always_inline));
+//static inline void turnOffPWM(uint8_t timer)
+static void turnOffPWM(uint8_t timer)
+{
+  switch (timer)
+     868:	84 30       	cpi	r24, 0x04	; 4
+     86a:	81 f0       	breq	.+32     	; 0x88c <turnOffPWM+0x24>
+     86c:	28 f4       	brcc	.+10     	; 0x878 <turnOffPWM+0x10>
+     86e:	82 30       	cpi	r24, 0x02	; 2
+     870:	e9 f0       	breq	.+58     	; 0x8ac <turnOffPWM+0x44>
+     872:	83 30       	cpi	r24, 0x03	; 3
+     874:	f9 f0       	breq	.+62     	; 0x8b4 <turnOffPWM+0x4c>
+     876:	08 95       	ret
+     878:	88 30       	cpi	r24, 0x08	; 8
+     87a:	71 f0       	breq	.+28     	; 0x898 <turnOffPWM+0x30>
+     87c:	89 30       	cpi	r24, 0x09	; 9
+     87e:	91 f0       	breq	.+36     	; 0x8a4 <turnOffPWM+0x3c>
+     880:	85 30       	cpi	r24, 0x05	; 5
+     882:	b9 f4       	brne	.+46     	; 0x8b2 <turnOffPWM+0x4a>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:87
+        TCCR1A &= ~_BV(COM1A1);
+        break;
+    #endif
+    #if defined(TCCR1A) && defined(COM1B1)
+      case TIMER1B:
+        TCCR1A &= ~_BV(COM1B1);
+     884:	80 91 80 00 	lds	r24, 0x0080	; 0x800080 <__DATA_REGION_ORIGIN__+0x20>
+     888:	8f 7d       	andi	r24, 0xDF	; 223
+     88a:	03 c0       	rjmp	.+6      	; 0x892 <turnOffPWM+0x2a>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:82
+  switch (timer)
+  {
+    // Timer1
+    #if defined(TCCR1A) && defined(COM1A1)
+      case TIMER1A:
+        TCCR1A &= ~_BV(COM1A1);
+     88c:	80 91 80 00 	lds	r24, 0x0080	; 0x800080 <__DATA_REGION_ORIGIN__+0x20>
+     890:	8f 77       	andi	r24, 0x7F	; 127
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:87
+        break;
+    #endif
+    #if defined(TCCR1A) && defined(COM1B1)
+      case TIMER1B:
+        TCCR1A &= ~_BV(COM1B1);
+     892:	80 93 80 00 	sts	0x0080, r24	; 0x800080 <__DATA_REGION_ORIGIN__+0x20>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:88
+        break;
+     896:	08 95       	ret
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:104
+        TCCR2 &= ~_BV(COM21);
+        break;
+    #endif
+    #if defined(TCCR2A) && defined(COM2A1)
+      case TIMER2A:
+        TCCR2A &= ~_BV(COM2A1);
+     898:	80 91 b0 00 	lds	r24, 0x00B0	; 0x8000b0 <__DATA_REGION_ORIGIN__+0x50>
+     89c:	8f 77       	andi	r24, 0x7F	; 127
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:109
+        break;
+    #endif
+    #if defined(TCCR2A) && defined(COM2B1)
+      case TIMER2B:
+        TCCR2A &= ~_BV(COM2B1);
+     89e:	80 93 b0 00 	sts	0x00B0, r24	; 0x8000b0 <__DATA_REGION_ORIGIN__+0x50>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:110
+        break;
+     8a2:	08 95       	ret
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:109
+        TCCR2A &= ~_BV(COM2A1);
+        break;
+    #endif
+    #if defined(TCCR2A) && defined(COM2B1)
+      case TIMER2B:
+        TCCR2A &= ~_BV(COM2B1);
+     8a4:	80 91 b0 00 	lds	r24, 0x00B0	; 0x8000b0 <__DATA_REGION_ORIGIN__+0x50>
+     8a8:	8f 7d       	andi	r24, 0xDF	; 223
+     8aa:	f9 cf       	rjmp	.-14     	; 0x89e <turnOffPWM+0x36>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:176
+        TCCR0 &= ~_BV(COM01);
+        break;
+    #endif
+    #if defined(TCCR0A) && defined(COM0A1)
+      case TIMER0A:
+        TCCR0A &= ~_BV(COM0A1);
+     8ac:	84 b5       	in	r24, 0x24	; 36
+     8ae:	8f 77       	andi	r24, 0x7F	; 127
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:181
+        break;
+    #endif
+    #if defined(TCCR0A) && defined(COM0B1)
+      case TIMER0B:
+        TCCR0A &= ~_BV(COM0B1);
+     8b0:	84 bd       	out	0x24, r24	; 36
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:185
+        break;
+    #endif
+  }
+}
+     8b2:	08 95       	ret
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:181
+        TCCR0A &= ~_BV(COM0A1);
+        break;
+    #endif
+    #if defined(TCCR0A) && defined(COM0B1)
+      case TIMER0B:
+        TCCR0A &= ~_BV(COM0B1);
+     8b4:	84 b5       	in	r24, 0x24	; 36
+     8b6:	8f 7d       	andi	r24, 0xDF	; 223
+     8b8:	fb cf       	rjmp	.-10     	; 0x8b0 <turnOffPWM+0x48>
+
+000008ba <pinMode>:
+pinMode():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:30
+#define ARDUINO_MAIN
+#include "wiring_private.h"
+#include "pins_arduino.h"
+
+void pinMode(uint8_t pin, uint8_t mode)
+{
+     8ba:	cf 93       	push	r28
+     8bc:	df 93       	push	r29
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:31
+  uint8_t bit = digitalPinToBitMask(pin);
+     8be:	90 e0       	ldi	r25, 0x00	; 0
+     8c0:	fc 01       	movw	r30, r24
+     8c2:	e1 58       	subi	r30, 0x81	; 129
+     8c4:	ff 4f       	sbci	r31, 0xFF	; 255
+     8c6:	24 91       	lpm	r18, Z
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:32
+  uint8_t port = digitalPinToPort(pin);
+     8c8:	8a 56       	subi	r24, 0x6A	; 106
+     8ca:	9f 4f       	sbci	r25, 0xFF	; 255
+     8cc:	fc 01       	movw	r30, r24
+     8ce:	84 91       	lpm	r24, Z
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:35
+  volatile uint8_t *reg, *out;
+
+  if (port == NOT_A_PIN) return;
+     8d0:	88 23       	and	r24, r24
+     8d2:	c9 f0       	breq	.+50     	; 0x906 <__stack+0x7>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:38
+
+  // JWS: can I let the optimizer do this?
+  reg = portModeRegister(port);
+     8d4:	90 e0       	ldi	r25, 0x00	; 0
+     8d6:	88 0f       	add	r24, r24
+     8d8:	99 1f       	adc	r25, r25
+     8da:	fc 01       	movw	r30, r24
+     8dc:	ef 53       	subi	r30, 0x3F	; 63
+     8de:	ff 4f       	sbci	r31, 0xFF	; 255
+     8e0:	a5 91       	lpm	r26, Z+
+     8e2:	b4 91       	lpm	r27, Z
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:39
+  out = portOutputRegister(port);
+     8e4:	fc 01       	movw	r30, r24
+     8e6:	e9 54       	subi	r30, 0x49	; 73
+     8e8:	ff 4f       	sbci	r31, 0xFF	; 255
+     8ea:	c5 91       	lpm	r28, Z+
+     8ec:	d4 91       	lpm	r29, Z
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:41
+
+  if (mode == INPUT) { 
+     8ee:	61 11       	cpse	r22, r1
+     8f0:	0d c0       	rjmp	.+26     	; 0x90c <__stack+0xd>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:42
+    uint8_t oldSREG = SREG;
+     8f2:	9f b7       	in	r25, 0x3f	; 63
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:43
+    cli();
+     8f4:	f8 94       	cli
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:44
+    *reg &= ~bit;
+     8f6:	8c 91       	ld	r24, X
+     8f8:	20 95       	com	r18
+     8fa:	82 23       	and	r24, r18
+     8fc:	8c 93       	st	X, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:45
+    *out &= ~bit;
+     8fe:	88 81       	ld	r24, Y
+     900:	28 23       	and	r18, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:51
+    SREG = oldSREG;
+  } else if (mode == INPUT_PULLUP) {
+    uint8_t oldSREG = SREG;
+    cli();
+    *reg &= ~bit;
+    *out |= bit;
+     902:	28 83       	st	Y, r18
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:52
+    SREG = oldSREG;
+     904:	9f bf       	out	0x3f, r25	; 63
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:59
+    uint8_t oldSREG = SREG;
+    cli();
+    *reg |= bit;
+    SREG = oldSREG;
+  }
+}
+     906:	df 91       	pop	r29
+     908:	cf 91       	pop	r28
+     90a:	08 95       	ret
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:47
+    uint8_t oldSREG = SREG;
+    cli();
+    *reg &= ~bit;
+    *out &= ~bit;
+    SREG = oldSREG;
+  } else if (mode == INPUT_PULLUP) {
+     90c:	62 30       	cpi	r22, 0x02	; 2
+     90e:	51 f4       	brne	.+20     	; 0x924 <__stack+0x25>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:48
+    uint8_t oldSREG = SREG;
+     910:	9f b7       	in	r25, 0x3f	; 63
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:49
+    cli();
+     912:	f8 94       	cli
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:50
+    *reg &= ~bit;
+     914:	3c 91       	ld	r19, X
+     916:	82 2f       	mov	r24, r18
+     918:	80 95       	com	r24
+     91a:	83 23       	and	r24, r19
+     91c:	8c 93       	st	X, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:51
+    *out |= bit;
+     91e:	e8 81       	ld	r30, Y
+     920:	2e 2b       	or	r18, r30
+     922:	ef cf       	rjmp	.-34     	; 0x902 <__stack+0x3>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:54
+    SREG = oldSREG;
+  } else {
+    uint8_t oldSREG = SREG;
+     924:	8f b7       	in	r24, 0x3f	; 63
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:55
+    cli();
+     926:	f8 94       	cli
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:56
+    *reg |= bit;
+     928:	ec 91       	ld	r30, X
+     92a:	2e 2b       	or	r18, r30
+     92c:	2c 93       	st	X, r18
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:57
+    SREG = oldSREG;
+     92e:	8f bf       	out	0x3f, r24	; 63
+     930:	ea cf       	rjmp	.-44     	; 0x906 <__stack+0x7>
+
+00000932 <digitalWrite>:
+digitalWrite():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:188
+    #endif
+  }
+}
+
+void digitalWrite(uint8_t pin, uint8_t val)
+{
+     932:	1f 93       	push	r17
+     934:	cf 93       	push	r28
+     936:	df 93       	push	r29
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:189
+  uint8_t timer = digitalPinToTimer(pin);
+     938:	28 2f       	mov	r18, r24
+     93a:	30 e0       	ldi	r19, 0x00	; 0
+     93c:	f9 01       	movw	r30, r18
+     93e:	e8 59       	subi	r30, 0x98	; 152
+     940:	ff 4f       	sbci	r31, 0xFF	; 255
+     942:	84 91       	lpm	r24, Z
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:190
+  uint8_t bit = digitalPinToBitMask(pin);
+     944:	f9 01       	movw	r30, r18
+     946:	e1 58       	subi	r30, 0x81	; 129
+     948:	ff 4f       	sbci	r31, 0xFF	; 255
+     94a:	d4 91       	lpm	r29, Z
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:191
+  uint8_t port = digitalPinToPort(pin);
+     94c:	f9 01       	movw	r30, r18
+     94e:	ea 56       	subi	r30, 0x6A	; 106
+     950:	ff 4f       	sbci	r31, 0xFF	; 255
+     952:	c4 91       	lpm	r28, Z
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:194
+  volatile uint8_t *out;
+
+  if (port == NOT_A_PIN) return;
+     954:	cc 23       	and	r28, r28
+     956:	a9 f0       	breq	.+42     	; 0x982 <digitalWrite+0x50>
+     958:	16 2f       	mov	r17, r22
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:198
+
+  // If the pin that support PWM output, we need to turn it off
+  // before doing a digital write.
+  if (timer != NOT_ON_TIMER) turnOffPWM(timer);
+     95a:	81 11       	cpse	r24, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:198 (discriminator 1)
+     95c:	0e 94 34 04 	call	0x868	; 0x868 <turnOffPWM>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:200
+
+  out = portOutputRegister(port);
+     960:	ec 2f       	mov	r30, r28
+     962:	f0 e0       	ldi	r31, 0x00	; 0
+     964:	ee 0f       	add	r30, r30
+     966:	ff 1f       	adc	r31, r31
+     968:	e9 54       	subi	r30, 0x49	; 73
+     96a:	ff 4f       	sbci	r31, 0xFF	; 255
+     96c:	a5 91       	lpm	r26, Z+
+     96e:	b4 91       	lpm	r27, Z
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:202
+
+  uint8_t oldSREG = SREG;
+     970:	8f b7       	in	r24, 0x3f	; 63
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:203
+  cli();
+     972:	f8 94       	cli
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:206
+
+  if (val == LOW) {
+    *out &= ~bit;
+     974:	ec 91       	ld	r30, X
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:205
+  out = portOutputRegister(port);
+
+  uint8_t oldSREG = SREG;
+  cli();
+
+  if (val == LOW) {
+     976:	11 11       	cpse	r17, r1
+     978:	08 c0       	rjmp	.+16     	; 0x98a <digitalWrite+0x58>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:206
+    *out &= ~bit;
+     97a:	d0 95       	com	r29
+     97c:	de 23       	and	r29, r30
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:208
+  } else {
+    *out |= bit;
+     97e:	dc 93       	st	X, r29
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:211
+  }
+
+  SREG = oldSREG;
+     980:	8f bf       	out	0x3f, r24	; 63
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:212
+}
+     982:	df 91       	pop	r29
+     984:	cf 91       	pop	r28
+     986:	1f 91       	pop	r17
+     988:	08 95       	ret
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_digital.c:208
+  cli();
+
+  if (val == LOW) {
+    *out &= ~bit;
+  } else {
+    *out |= bit;
+     98a:	de 2b       	or	r29, r30
+     98c:	f8 cf       	rjmp	.-16     	; 0x97e <digitalWrite+0x4c>
+
+0000098e <pulseIn>:
+pulseIn():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.c:34
+ * before the start of the pulse.
+ *
+ * This function performs better with short pulses in noInterrupt() context
+ */
+unsigned long pulseIn(uint8_t pin, uint8_t state, unsigned long timeout)
+{
+     98e:	0f 93       	push	r16
+     990:	1f 93       	push	r17
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.c:38
+  // cache the port and bit of the pin in order to speed up the
+  // pulse width measuring loop and achieve finer resolution.  calling
+  // digitalRead() instead yields much coarser resolution.
+  uint8_t bit = digitalPinToBitMask(pin);
+     992:	90 e0       	ldi	r25, 0x00	; 0
+     994:	fc 01       	movw	r30, r24
+     996:	e1 58       	subi	r30, 0x81	; 129
+     998:	ff 4f       	sbci	r31, 0xFF	; 255
+     99a:	74 91       	lpm	r23, Z
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.c:39
+  uint8_t port = digitalPinToPort(pin);
+     99c:	fc 01       	movw	r30, r24
+     99e:	ea 56       	subi	r30, 0x6A	; 106
+     9a0:	ff 4f       	sbci	r31, 0xFF	; 255
+     9a2:	e4 91       	lpm	r30, Z
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.c:40
+  uint8_t stateMask = (state ? bit : 0);
+     9a4:	61 11       	cpse	r22, r1
+     9a6:	67 2f       	mov	r22, r23
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.c:46 (discriminator 4)
+
+  // convert the timeout from microseconds to a number of times through
+  // the initial loop; it takes approximately 16 clock cycles per iteration
+  unsigned long maxloops = microsecondsToClockCycles(timeout)/16;
+
+  unsigned long width = countPulseASM(portInputRegister(port), bit, stateMask, maxloops);
+     9a8:	f0 e0       	ldi	r31, 0x00	; 0
+     9aa:	ee 0f       	add	r30, r30
+     9ac:	ff 1f       	adc	r31, r31
+     9ae:	e3 55       	subi	r30, 0x53	; 83
+     9b0:	ff 4f       	sbci	r31, 0xFF	; 255
+     9b2:	85 91       	lpm	r24, Z+
+     9b4:	94 91       	lpm	r25, Z
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.c:44 (discriminator 4)
+  uint8_t port = digitalPinToPort(pin);
+  uint8_t stateMask = (state ? bit : 0);
+
+  // convert the timeout from microseconds to a number of times through
+  // the initial loop; it takes approximately 16 clock cycles per iteration
+  unsigned long maxloops = microsecondsToClockCycles(timeout)/16;
+     9b6:	89 01       	movw	r16, r18
+     9b8:	9a 01       	movw	r18, r20
+     9ba:	b2 e0       	ldi	r27, 0x02	; 2
+     9bc:	00 0f       	add	r16, r16
+     9be:	11 1f       	adc	r17, r17
+     9c0:	22 1f       	adc	r18, r18
+     9c2:	33 1f       	adc	r19, r19
+     9c4:	ba 95       	dec	r27
+     9c6:	d1 f7       	brne	.-12     	; 0x9bc <pulseIn+0x2e>
+     9c8:	44 e0       	ldi	r20, 0x04	; 4
+     9ca:	36 95       	lsr	r19
+     9cc:	27 95       	ror	r18
+     9ce:	17 95       	ror	r17
+     9d0:	07 95       	ror	r16
+     9d2:	4a 95       	dec	r20
+     9d4:	d1 f7       	brne	.-12     	; 0x9ca <pulseIn+0x3c>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.c:46 (discriminator 4)
+
+  unsigned long width = countPulseASM(portInputRegister(port), bit, stateMask, maxloops);
+     9d6:	46 2f       	mov	r20, r22
+     9d8:	67 2f       	mov	r22, r23
+     9da:	0e 94 85 00 	call	0x10a	; 0x10a <countPulseASM>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.c:49 (discriminator 4)
+
+  // prevent clockCyclesToMicroseconds to return bogus values if countPulseASM timed out
+  if (width)
+     9de:	61 15       	cp	r22, r1
+     9e0:	71 05       	cpc	r23, r1
+     9e2:	81 05       	cpc	r24, r1
+     9e4:	91 05       	cpc	r25, r1
+     9e6:	91 f0       	breq	.+36     	; 0xa0c <pulseIn+0x7e>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.c:50
+    return clockCyclesToMicroseconds(width * 16 + 16);
+     9e8:	6f 5f       	subi	r22, 0xFF	; 255
+     9ea:	7f 4f       	sbci	r23, 0xFF	; 255
+     9ec:	8f 4f       	sbci	r24, 0xFF	; 255
+     9ee:	9f 4f       	sbci	r25, 0xFF	; 255
+     9f0:	24 e0       	ldi	r18, 0x04	; 4
+     9f2:	66 0f       	add	r22, r22
+     9f4:	77 1f       	adc	r23, r23
+     9f6:	88 1f       	adc	r24, r24
+     9f8:	99 1f       	adc	r25, r25
+     9fa:	2a 95       	dec	r18
+     9fc:	d1 f7       	brne	.-12     	; 0x9f2 <pulseIn+0x64>
+     9fe:	32 e0       	ldi	r19, 0x02	; 2
+     a00:	96 95       	lsr	r25
+     a02:	87 95       	ror	r24
+     a04:	77 95       	ror	r23
+     a06:	67 95       	ror	r22
+     a08:	3a 95       	dec	r19
+     a0a:	d1 f7       	brne	.-12     	; 0xa00 <pulseIn+0x72>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/wiring_pulse.c:53
+  else
+    return 0;
+}
+     a0c:	1f 91       	pop	r17
+     a0e:	0f 91       	pop	r16
+     a10:	08 95       	ret
+
+00000a12 <tone(unsigned char, unsigned int, unsigned long)>:
+_Z4tonehjm():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:264
+
+
+// Frequency (in hertz) and duration (in milliseconds).
+
+void tone(uint8_t _pin, unsigned int frequency, unsigned long duration)
+{
+     a12:	4f 92       	push	r4
+     a14:	5f 92       	push	r5
+     a16:	6f 92       	push	r6
+     a18:	7f 92       	push	r7
+     a1a:	8f 92       	push	r8
+     a1c:	9f 92       	push	r9
+     a1e:	af 92       	push	r10
+     a20:	bf 92       	push	r11
+     a22:	cf 92       	push	r12
+     a24:	df 92       	push	r13
+     a26:	ef 92       	push	r14
+     a28:	ff 92       	push	r15
+     a2a:	0f 93       	push	r16
+     a2c:	1f 93       	push	r17
+     a2e:	cf 93       	push	r28
+     a30:	df 93       	push	r29
+     a32:	00 d0       	rcall	.+0      	; 0xa34 <tone(unsigned char, unsigned int, unsigned long)+0x22>
+     a34:	00 d0       	rcall	.+0      	; 0xa36 <tone(unsigned char, unsigned int, unsigned long)+0x24>
+     a36:	1f 92       	push	r1
+     a38:	cd b7       	in	r28, 0x3d	; 61
+     a3a:	de b7       	in	r29, 0x3e	; 62
+     a3c:	8b 01       	movw	r16, r22
+     a3e:	29 83       	std	Y+1, r18	; 0x01
+     a40:	3a 83       	std	Y+2, r19	; 0x02
+     a42:	4b 83       	std	Y+3, r20	; 0x03
+     a44:	5c 83       	std	Y+4, r21	; 0x04
+toneBegin():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:154
+{
+  int8_t _timer = -1;
+
+  // if we're already using the pin, the timer should be configured.  
+  for (int i = 0; i < AVAILABLE_TONE_PINS; i++) {
+    if (tone_pins[i] == _pin) {
+     a46:	90 91 18 01 	lds	r25, 0x0118	; 0x800118 <tone_pins>
+     a4a:	89 17       	cp	r24, r25
+     a4c:	c9 f0       	breq	.+50     	; 0xa80 <tone(unsigned char, unsigned int, unsigned long)+0x6e>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:161
+    }
+  }
+  
+  // search for an unused timer.
+  for (int i = 0; i < AVAILABLE_TONE_PINS; i++) {
+    if (tone_pins[i] == 255) {
+     a4e:	9f 3f       	cpi	r25, 0xFF	; 255
+     a50:	09 f4       	brne	.+2      	; 0xa54 <tone(unsigned char, unsigned int, unsigned long)+0x42>
+     a52:	f0 c0       	rjmp	.+480    	; 0xc34 <tone(unsigned char, unsigned int, unsigned long)+0x222>
+_Z4tonehjm():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:440
+        break;
+#endif
+
+    }
+  }
+}
+     a54:	0f 90       	pop	r0
+     a56:	0f 90       	pop	r0
+     a58:	0f 90       	pop	r0
+     a5a:	0f 90       	pop	r0
+     a5c:	0f 90       	pop	r0
+     a5e:	df 91       	pop	r29
+     a60:	cf 91       	pop	r28
+     a62:	1f 91       	pop	r17
+     a64:	0f 91       	pop	r16
+     a66:	ff 90       	pop	r15
+     a68:	ef 90       	pop	r14
+     a6a:	df 90       	pop	r13
+     a6c:	cf 90       	pop	r12
+     a6e:	bf 90       	pop	r11
+     a70:	af 90       	pop	r10
+     a72:	9f 90       	pop	r9
+     a74:	8f 90       	pop	r8
+     a76:	7f 90       	pop	r7
+     a78:	6f 90       	pop	r6
+     a7a:	5f 90       	pop	r5
+     a7c:	4f 90       	pop	r4
+     a7e:	08 95       	ret
+toneBegin():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:155
+  int8_t _timer = -1;
+
+  // if we're already using the pin, the timer should be configured.  
+  for (int i = 0; i < AVAILABLE_TONE_PINS; i++) {
+    if (tone_pins[i] == _pin) {
+      return pgm_read_byte(tone_pin_to_timer_PGM + i);
+     a80:	eb ec       	ldi	r30, 0xCB	; 203
+     a82:	f0 e0       	ldi	r31, 0x00	; 0
+     a84:	94 91       	lpm	r25, Z
+     a86:	9d 83       	std	Y+5, r25	; 0x05
+_Z4tonehjm():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:272
+  uint32_t ocr = 0;
+  int8_t _timer;
+
+  _timer = toneBegin(_pin);
+
+  if (_timer >= 0)
+     a88:	97 fd       	sbrc	r25, 7
+     a8a:	e4 cf       	rjmp	.-56     	; 0xa54 <tone(unsigned char, unsigned int, unsigned long)+0x42>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:275
+  {
+    // Set the pinMode as OUTPUT
+    pinMode(_pin, OUTPUT);
+     a8c:	61 e0       	ldi	r22, 0x01	; 1
+     a8e:	0e 94 5d 04 	call	0x8ba	; 0x8ba <pinMode>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:278
+    
+    // if we are using an 8 bit timer, scan through prescalars to find the best fit
+    if (_timer == 0 || _timer == 2)
+     a92:	bd 81       	ldd	r27, Y+5	; 0x05
+     a94:	bb 23       	and	r27, r27
+     a96:	21 f0       	breq	.+8      	; 0xaa0 <tone(unsigned char, unsigned int, unsigned long)+0x8e>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:278 (discriminator 1)
+     a98:	8d 81       	ldd	r24, Y+5	; 0x05
+     a9a:	82 30       	cpi	r24, 0x02	; 2
+     a9c:	09 f0       	breq	.+2      	; 0xaa0 <tone(unsigned char, unsigned int, unsigned long)+0x8e>
+     a9e:	71 c1       	rjmp	.+738    	; 0xd82 <tone(unsigned char, unsigned int, unsigned long)+0x370>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:280
+    {
+      ocr = F_CPU / frequency / 2 - 1;
+     aa0:	28 01       	movw	r4, r16
+     aa2:	71 2c       	mov	r7, r1
+     aa4:	61 2c       	mov	r6, r1
+     aa6:	60 e8       	ldi	r22, 0x80	; 128
+     aa8:	74 e8       	ldi	r23, 0x84	; 132
+     aaa:	8e e1       	ldi	r24, 0x1E	; 30
+     aac:	90 e0       	ldi	r25, 0x00	; 0
+     aae:	a3 01       	movw	r20, r6
+     ab0:	98 01       	movw	r18, r16
+     ab2:	0e 94 53 09 	call	0x12a6	; 0x12a6 <__divmodsi4>
+     ab6:	49 01       	movw	r8, r18
+     ab8:	5a 01       	movw	r10, r20
+     aba:	7a 01       	movw	r14, r20
+     abc:	69 01       	movw	r12, r18
+     abe:	91 e0       	ldi	r25, 0x01	; 1
+     ac0:	c9 1a       	sub	r12, r25
+     ac2:	d1 08       	sbc	r13, r1
+     ac4:	e1 08       	sbc	r14, r1
+     ac6:	f1 08       	sbc	r15, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:282
+      prescalarbits = 0b001;  // ck/1: same for both timers
+      if (ocr > 255)
+     ac8:	af ef       	ldi	r26, 0xFF	; 255
+     aca:	ca 16       	cp	r12, r26
+     acc:	d1 04       	cpc	r13, r1
+     ace:	e1 04       	cpc	r14, r1
+     ad0:	f1 04       	cpc	r15, r1
+     ad2:	09 f0       	breq	.+2      	; 0xad6 <tone(unsigned char, unsigned int, unsigned long)+0xc4>
+     ad4:	0c f4       	brge	.+2      	; 0xad8 <tone(unsigned char, unsigned int, unsigned long)+0xc6>
+     ad6:	31 c1       	rjmp	.+610    	; 0xd3a <tone(unsigned char, unsigned int, unsigned long)+0x328>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:284
+      {
+        ocr = F_CPU / frequency / 2 / 8 - 1;
+     ad8:	60 e9       	ldi	r22, 0x90	; 144
+     ada:	70 ed       	ldi	r23, 0xD0	; 208
+     adc:	83 e0       	ldi	r24, 0x03	; 3
+     ade:	90 e0       	ldi	r25, 0x00	; 0
+     ae0:	a3 01       	movw	r20, r6
+     ae2:	98 01       	movw	r18, r16
+     ae4:	0e 94 53 09 	call	0x12a6	; 0x12a6 <__divmodsi4>
+     ae8:	69 01       	movw	r12, r18
+     aea:	7a 01       	movw	r14, r20
+     aec:	b1 e0       	ldi	r27, 0x01	; 1
+     aee:	cb 1a       	sub	r12, r27
+     af0:	d1 08       	sbc	r13, r1
+     af2:	e1 08       	sbc	r14, r1
+     af4:	f1 08       	sbc	r15, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:287
+        prescalarbits = 0b010;  // ck/8: same for both timers
+
+        if (_timer == TIMER_WITH_FULL_PRESCALER && ocr > 255)
+     af6:	8d 81       	ldd	r24, Y+5	; 0x05
+     af8:	82 30       	cpi	r24, 0x02	; 2
+     afa:	09 f0       	breq	.+2      	; 0xafe <tone(unsigned char, unsigned int, unsigned long)+0xec>
+     afc:	a2 c1       	rjmp	.+836    	; 0xe42 <tone(unsigned char, unsigned int, unsigned long)+0x430>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:285 (discriminator 1)
+      ocr = F_CPU / frequency / 2 - 1;
+      prescalarbits = 0b001;  // ck/1: same for both timers
+      if (ocr > 255)
+      {
+        ocr = F_CPU / frequency / 2 / 8 - 1;
+        prescalarbits = 0b010;  // ck/8: same for both timers
+     afe:	82 e0       	ldi	r24, 0x02	; 2
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:287 (discriminator 1)
+
+        if (_timer == TIMER_WITH_FULL_PRESCALER && ocr > 255)
+     b00:	9f ef       	ldi	r25, 0xFF	; 255
+     b02:	c9 16       	cp	r12, r25
+     b04:	d1 04       	cpc	r13, r1
+     b06:	e1 04       	cpc	r14, r1
+     b08:	f1 04       	cpc	r15, r1
+     b0a:	09 f0       	breq	.+2      	; 0xb0e <tone(unsigned char, unsigned int, unsigned long)+0xfc>
+     b0c:	0c f4       	brge	.+2      	; 0xb10 <tone(unsigned char, unsigned int, unsigned long)+0xfe>
+     b0e:	68 c0       	rjmp	.+208    	; 0xbe0 <tone(unsigned char, unsigned int, unsigned long)+0x1ce>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:289
+        {
+          ocr = F_CPU / frequency / 2 / 32 - 1;
+     b10:	64 e2       	ldi	r22, 0x24	; 36
+     b12:	74 ef       	ldi	r23, 0xF4	; 244
+     b14:	80 e0       	ldi	r24, 0x00	; 0
+     b16:	90 e0       	ldi	r25, 0x00	; 0
+     b18:	a3 01       	movw	r20, r6
+     b1a:	98 01       	movw	r18, r16
+     b1c:	0e 94 53 09 	call	0x12a6	; 0x12a6 <__divmodsi4>
+     b20:	69 01       	movw	r12, r18
+     b22:	7a 01       	movw	r14, r20
+     b24:	a1 e0       	ldi	r26, 0x01	; 1
+     b26:	ca 1a       	sub	r12, r26
+     b28:	d1 08       	sbc	r13, r1
+     b2a:	e1 08       	sbc	r14, r1
+     b2c:	f1 08       	sbc	r15, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:290
+          prescalarbits = 0b011;
+     b2e:	83 e0       	ldi	r24, 0x03	; 3
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:293
+        }
+
+        if (ocr > 255)
+     b30:	bf ef       	ldi	r27, 0xFF	; 255
+     b32:	cb 16       	cp	r12, r27
+     b34:	d1 04       	cpc	r13, r1
+     b36:	e1 04       	cpc	r14, r1
+     b38:	f1 04       	cpc	r15, r1
+     b3a:	09 f0       	breq	.+2      	; 0xb3e <tone(unsigned char, unsigned int, unsigned long)+0x12c>
+     b3c:	08 f4       	brcc	.+2      	; 0xb40 <tone(unsigned char, unsigned int, unsigned long)+0x12e>
+     b3e:	50 c0       	rjmp	.+160    	; 0xbe0 <tone(unsigned char, unsigned int, unsigned long)+0x1ce>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:295
+        {
+          ocr = F_CPU / frequency / 2 / 64 - 1;
+     b40:	62 e1       	ldi	r22, 0x12	; 18
+     b42:	7a e7       	ldi	r23, 0x7A	; 122
+     b44:	80 e0       	ldi	r24, 0x00	; 0
+     b46:	90 e0       	ldi	r25, 0x00	; 0
+     b48:	a3 01       	movw	r20, r6
+     b4a:	98 01       	movw	r18, r16
+     b4c:	0e 94 53 09 	call	0x12a6	; 0x12a6 <__divmodsi4>
+     b50:	69 01       	movw	r12, r18
+     b52:	7a 01       	movw	r14, r20
+     b54:	81 e0       	ldi	r24, 0x01	; 1
+     b56:	c8 1a       	sub	r12, r24
+     b58:	d1 08       	sbc	r13, r1
+     b5a:	e1 08       	sbc	r14, r1
+     b5c:	f1 08       	sbc	r15, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:296
+          prescalarbits = _timer != TIMER_WITH_FULL_PRESCALER ? 0b011 : 0b100;
+     b5e:	84 e0       	ldi	r24, 0x04	; 4
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:298
+
+          if (_timer == TIMER_WITH_FULL_PRESCALER && ocr > 255)
+     b60:	9f ef       	ldi	r25, 0xFF	; 255
+     b62:	c9 16       	cp	r12, r25
+     b64:	d1 04       	cpc	r13, r1
+     b66:	e1 04       	cpc	r14, r1
+     b68:	f1 04       	cpc	r15, r1
+     b6a:	d1 f1       	breq	.+116    	; 0xbe0 <tone(unsigned char, unsigned int, unsigned long)+0x1ce>
+     b6c:	c8 f1       	brcs	.+114    	; 0xbe0 <tone(unsigned char, unsigned int, unsigned long)+0x1ce>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:300
+          {
+            ocr = F_CPU / frequency / 2 / 128 - 1;
+     b6e:	69 e0       	ldi	r22, 0x09	; 9
+     b70:	7d e3       	ldi	r23, 0x3D	; 61
+     b72:	80 e0       	ldi	r24, 0x00	; 0
+     b74:	90 e0       	ldi	r25, 0x00	; 0
+     b76:	a3 01       	movw	r20, r6
+     b78:	98 01       	movw	r18, r16
+     b7a:	0e 94 53 09 	call	0x12a6	; 0x12a6 <__divmodsi4>
+     b7e:	69 01       	movw	r12, r18
+     b80:	7a 01       	movw	r14, r20
+     b82:	a1 e0       	ldi	r26, 0x01	; 1
+     b84:	ca 1a       	sub	r12, r26
+     b86:	d1 08       	sbc	r13, r1
+     b88:	e1 08       	sbc	r14, r1
+     b8a:	f1 08       	sbc	r15, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:301
+            prescalarbits = 0b101;
+     b8c:	85 e0       	ldi	r24, 0x05	; 5
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:304
+          }
+
+          if (ocr > 255)
+     b8e:	bf ef       	ldi	r27, 0xFF	; 255
+     b90:	cb 16       	cp	r12, r27
+     b92:	d1 04       	cpc	r13, r1
+     b94:	e1 04       	cpc	r14, r1
+     b96:	f1 04       	cpc	r15, r1
+     b98:	19 f1       	breq	.+70     	; 0xbe0 <tone(unsigned char, unsigned int, unsigned long)+0x1ce>
+     b9a:	10 f1       	brcs	.+68     	; 0xbe0 <tone(unsigned char, unsigned int, unsigned long)+0x1ce>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:306
+          {
+            ocr = F_CPU / frequency / 2 / 256 - 1;
+     b9c:	ff 24       	eor	r15, r15
+     b9e:	b7 fc       	sbrc	r11, 7
+     ba0:	fa 94       	dec	r15
+     ba2:	eb 2c       	mov	r14, r11
+     ba4:	da 2c       	mov	r13, r10
+     ba6:	c9 2c       	mov	r12, r9
+     ba8:	81 e0       	ldi	r24, 0x01	; 1
+     baa:	c8 1a       	sub	r12, r24
+     bac:	d1 08       	sbc	r13, r1
+     bae:	e1 08       	sbc	r14, r1
+     bb0:	f1 08       	sbc	r15, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:307
+            prescalarbits = _timer != TIMER_WITH_FULL_PRESCALER ? 0b100 : 0b110;
+     bb2:	86 e0       	ldi	r24, 0x06	; 6
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:308
+            if (ocr > 255)
+     bb4:	9f ef       	ldi	r25, 0xFF	; 255
+     bb6:	c9 16       	cp	r12, r25
+     bb8:	d1 04       	cpc	r13, r1
+     bba:	e1 04       	cpc	r14, r1
+     bbc:	f1 04       	cpc	r15, r1
+     bbe:	81 f0       	breq	.+32     	; 0xbe0 <tone(unsigned char, unsigned int, unsigned long)+0x1ce>
+     bc0:	78 f0       	brcs	.+30     	; 0xbe0 <tone(unsigned char, unsigned int, unsigned long)+0x1ce>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:311
+            {
+              // Can't do any better than /1024
+              ocr = F_CPU / frequency / 2 / 1024 - 1;
+     bc2:	75 01       	movw	r14, r10
+     bc4:	64 01       	movw	r12, r8
+     bc6:	9a e0       	ldi	r25, 0x0A	; 10
+     bc8:	f5 94       	asr	r15
+     bca:	e7 94       	ror	r14
+     bcc:	d7 94       	ror	r13
+     bce:	c7 94       	ror	r12
+     bd0:	9a 95       	dec	r25
+     bd2:	d1 f7       	brne	.-12     	; 0xbc8 <tone(unsigned char, unsigned int, unsigned long)+0x1b6>
+     bd4:	81 e0       	ldi	r24, 0x01	; 1
+     bd6:	c8 1a       	sub	r12, r24
+     bd8:	d1 08       	sbc	r13, r1
+     bda:	e1 08       	sbc	r14, r1
+     bdc:	f1 08       	sbc	r15, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:312
+              prescalarbits = _timer != TIMER_WITH_FULL_PRESCALER ? 0b101 : 0b111;
+     bde:	87 e0       	ldi	r24, 0x07	; 7
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:327
+      }
+      else
+#endif
+#if defined(TCCR2B)
+      {
+        TCCR2B = (TCCR2B & 0b11111000) | prescalarbits;
+     be0:	90 91 b1 00 	lds	r25, 0x00B1	; 0x8000b1 <__DATA_REGION_ORIGIN__+0x51>
+     be4:	98 7f       	andi	r25, 0xF8	; 248
+     be6:	89 2b       	or	r24, r25
+     be8:	80 93 b1 00 	sts	0x00B1, r24	; 0x8000b1 <__DATA_REGION_ORIGIN__+0x51>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:370
+
+    }
+    
+
+    // Calculate the toggle count
+    if (duration > 0)
+     bec:	89 81       	ldd	r24, Y+1	; 0x01
+     bee:	9a 81       	ldd	r25, Y+2	; 0x02
+     bf0:	ab 81       	ldd	r26, Y+3	; 0x03
+     bf2:	bc 81       	ldd	r27, Y+4	; 0x04
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:376
+    {
+      toggle_count = 2 * frequency * duration / 1000;
+    }
+    else
+    {
+      toggle_count = -1;
+     bf4:	2f ef       	ldi	r18, 0xFF	; 255
+     bf6:	3f ef       	ldi	r19, 0xFF	; 255
+     bf8:	a9 01       	movw	r20, r18
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:370
+
+    }
+    
+
+    // Calculate the toggle count
+    if (duration > 0)
+     bfa:	89 2b       	or	r24, r25
+     bfc:	8a 2b       	or	r24, r26
+     bfe:	8b 2b       	or	r24, r27
+     c00:	09 f0       	breq	.+2      	; 0xc04 <tone(unsigned char, unsigned int, unsigned long)+0x1f2>
+     c02:	af c0       	rjmp	.+350    	; 0xd62 <tone(unsigned char, unsigned int, unsigned long)+0x350>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:382
+    }
+
+    // Set the OCR for the given timer,
+    // set the toggle count,
+    // then turn on the interrupts
+    switch (_timer)
+     c04:	9d 81       	ldd	r25, Y+5	; 0x05
+     c06:	91 30       	cpi	r25, 0x01	; 1
+     c08:	09 f4       	brne	.+2      	; 0xc0c <tone(unsigned char, unsigned int, unsigned long)+0x1fa>
+     c0a:	f9 c0       	rjmp	.+498    	; 0xdfe <tone(unsigned char, unsigned int, unsigned long)+0x3ec>
+     c0c:	92 30       	cpi	r25, 0x02	; 2
+     c0e:	09 f4       	brne	.+2      	; 0xc12 <tone(unsigned char, unsigned int, unsigned long)+0x200>
+     c10:	08 c1       	rjmp	.+528    	; 0xe22 <tone(unsigned char, unsigned int, unsigned long)+0x410>
+     c12:	91 11       	cpse	r25, r1
+     c14:	1f cf       	rjmp	.-450    	; 0xa54 <tone(unsigned char, unsigned int, unsigned long)+0x42>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:387
+    {
+
+#if defined(OCR0A) && defined(TIMSK0) && defined(OCIE0A)
+      case 0:
+        OCR0A = ocr;
+     c16:	c7 bc       	out	0x27, r12	; 39
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:388
+        timer0_toggle_count = toggle_count;
+     c18:	20 93 3c 01 	sts	0x013C, r18	; 0x80013c <timer0_toggle_count>
+     c1c:	30 93 3d 01 	sts	0x013D, r19	; 0x80013d <timer0_toggle_count+0x1>
+     c20:	40 93 3e 01 	sts	0x013E, r20	; 0x80013e <timer0_toggle_count+0x2>
+     c24:	50 93 3f 01 	sts	0x013F, r21	; 0x80013f <timer0_toggle_count+0x3>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:389
+        bitWrite(TIMSK0, OCIE0A, 1);
+     c28:	80 91 6e 00 	lds	r24, 0x006E	; 0x80006e <__DATA_REGION_ORIGIN__+0xe>
+     c2c:	82 60       	ori	r24, 0x02	; 2
+     c2e:	80 93 6e 00 	sts	0x006E, r24	; 0x80006e <__DATA_REGION_ORIGIN__+0xe>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:390
+        break;
+     c32:	10 cf       	rjmp	.-480    	; 0xa54 <tone(unsigned char, unsigned int, unsigned long)+0x42>
+toneBegin():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:162
+  }
+  
+  // search for an unused timer.
+  for (int i = 0; i < AVAILABLE_TONE_PINS; i++) {
+    if (tone_pins[i] == 255) {
+      tone_pins[i] = _pin;
+     c34:	80 93 18 01 	sts	0x0118, r24	; 0x800118 <tone_pins>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:163
+      _timer = pgm_read_byte(tone_pin_to_timer_PGM + i);
+     c38:	eb ec       	ldi	r30, 0xCB	; 203
+     c3a:	f0 e0       	ldi	r31, 0x00	; 0
+     c3c:	a4 91       	lpm	r26, Z
+     c3e:	ad 83       	std	Y+5, r26	; 0x05
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:168
+      break;
+    }
+  }
+  
+  if (_timer != -1)
+     c40:	af 3f       	cpi	r26, 0xFF	; 255
+     c42:	09 f4       	brne	.+2      	; 0xc46 <tone(unsigned char, unsigned int, unsigned long)+0x234>
+     c44:	07 cf       	rjmp	.-498    	; 0xa54 <tone(unsigned char, unsigned int, unsigned long)+0x42>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:174
+  {
+    // Set timer specific stuff
+    // All timers in CTC mode
+    // 8 bit timers will require changing prescalar values,
+    // whereas 16 bit timers are set to either ck/1 or ck/64 prescalar
+    switch (_timer)
+     c46:	a1 30       	cpi	r26, 0x01	; 1
+     c48:	61 f1       	breq	.+88     	; 0xca2 <tone(unsigned char, unsigned int, unsigned long)+0x290>
+     c4a:	50 f0       	brcs	.+20     	; 0xc60 <tone(unsigned char, unsigned int, unsigned long)+0x24e>
+     c4c:	a2 30       	cpi	r26, 0x02	; 2
+     c4e:	09 f4       	brne	.+2      	; 0xc52 <tone(unsigned char, unsigned int, unsigned long)+0x240>
+     c50:	4e c0       	rjmp	.+156    	; 0xcee <tone(unsigned char, unsigned int, unsigned long)+0x2dc>
+_Z4tonehjm():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:272
+  uint32_t ocr = 0;
+  int8_t _timer;
+
+  _timer = toneBegin(_pin);
+
+  if (_timer >= 0)
+     c52:	ad 81       	ldd	r26, Y+5	; 0x05
+     c54:	a7 fd       	sbrc	r26, 7
+     c56:	fe ce       	rjmp	.-516    	; 0xa54 <tone(unsigned char, unsigned int, unsigned long)+0x42>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:275
+  {
+    // Set the pinMode as OUTPUT
+    pinMode(_pin, OUTPUT);
+     c58:	61 e0       	ldi	r22, 0x01	; 1
+     c5a:	0e 94 5d 04 	call	0x8ba	; 0x8ba <pinMode>
+     c5e:	1c cf       	rjmp	.-456    	; 0xa98 <tone(unsigned char, unsigned int, unsigned long)+0x86>
+toneBegin():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:179
+    switch (_timer)
+    {
+      #if defined(TCCR0A) && defined(TCCR0B) && defined(WGM01)
+      case 0:
+        // 8 bit timer
+        TCCR0A = 0;
+     c60:	14 bc       	out	0x24, r1	; 36
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:180
+        TCCR0B = 0;
+     c62:	15 bc       	out	0x25, r1	; 37
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:181
+        bitWrite(TCCR0A, WGM01, 1);
+     c64:	94 b5       	in	r25, 0x24	; 36
+     c66:	92 60       	ori	r25, 0x02	; 2
+     c68:	94 bd       	out	0x24, r25	; 36
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:182
+        bitWrite(TCCR0B, CS00, 1);
+     c6a:	95 b5       	in	r25, 0x25	; 37
+     c6c:	91 60       	ori	r25, 0x01	; 1
+     c6e:	95 bd       	out	0x25, r25	; 37
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:183
+        timer0_pin_port = portOutputRegister(digitalPinToPort(_pin));
+     c70:	28 2f       	mov	r18, r24
+     c72:	30 e0       	ldi	r19, 0x00	; 0
+     c74:	f9 01       	movw	r30, r18
+     c76:	ea 56       	subi	r30, 0x6A	; 106
+     c78:	ff 4f       	sbci	r31, 0xFF	; 255
+     c7a:	e4 91       	lpm	r30, Z
+     c7c:	f0 e0       	ldi	r31, 0x00	; 0
+     c7e:	ee 0f       	add	r30, r30
+     c80:	ff 1f       	adc	r31, r31
+     c82:	e9 54       	subi	r30, 0x49	; 73
+     c84:	ff 4f       	sbci	r31, 0xFF	; 255
+     c86:	45 91       	lpm	r20, Z+
+     c88:	54 91       	lpm	r21, Z
+     c8a:	50 93 3b 01 	sts	0x013B, r21	; 0x80013b <timer0_pin_port+0x1>
+     c8e:	40 93 3a 01 	sts	0x013A, r20	; 0x80013a <timer0_pin_port>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:184
+        timer0_pin_mask = digitalPinToBitMask(_pin);
+     c92:	f9 01       	movw	r30, r18
+     c94:	e1 58       	subi	r30, 0x81	; 129
+     c96:	ff 4f       	sbci	r31, 0xFF	; 255
+     c98:	e4 91       	lpm	r30, Z
+     c9a:	e0 93 39 01 	sts	0x0139, r30	; 0x800139 <timer0_pin_mask>
+     c9e:	1d 82       	std	Y+5, r1	; 0x05
+     ca0:	f5 ce       	rjmp	.-534    	; 0xa8c <tone(unsigned char, unsigned int, unsigned long)+0x7a>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:191
+      #endif
+
+      #if defined(TCCR1A) && defined(TCCR1B) && defined(WGM12)
+      case 1:
+        // 16 bit timer
+        TCCR1A = 0;
+     ca2:	10 92 80 00 	sts	0x0080, r1	; 0x800080 <__DATA_REGION_ORIGIN__+0x20>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:192
+        TCCR1B = 0;
+     ca6:	10 92 81 00 	sts	0x0081, r1	; 0x800081 <__DATA_REGION_ORIGIN__+0x21>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:193
+        bitWrite(TCCR1B, WGM12, 1);
+     caa:	90 91 81 00 	lds	r25, 0x0081	; 0x800081 <__DATA_REGION_ORIGIN__+0x21>
+     cae:	98 60       	ori	r25, 0x08	; 8
+     cb0:	90 93 81 00 	sts	0x0081, r25	; 0x800081 <__DATA_REGION_ORIGIN__+0x21>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:194
+        bitWrite(TCCR1B, CS10, 1);
+     cb4:	90 91 81 00 	lds	r25, 0x0081	; 0x800081 <__DATA_REGION_ORIGIN__+0x21>
+     cb8:	91 60       	ori	r25, 0x01	; 1
+     cba:	90 93 81 00 	sts	0x0081, r25	; 0x800081 <__DATA_REGION_ORIGIN__+0x21>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:195
+        timer1_pin_port = portOutputRegister(digitalPinToPort(_pin));
+     cbe:	28 2f       	mov	r18, r24
+     cc0:	30 e0       	ldi	r19, 0x00	; 0
+     cc2:	f9 01       	movw	r30, r18
+     cc4:	ea 56       	subi	r30, 0x6A	; 106
+     cc6:	ff 4f       	sbci	r31, 0xFF	; 255
+     cc8:	e4 91       	lpm	r30, Z
+     cca:	f0 e0       	ldi	r31, 0x00	; 0
+     ccc:	ee 0f       	add	r30, r30
+     cce:	ff 1f       	adc	r31, r31
+     cd0:	e9 54       	subi	r30, 0x49	; 73
+     cd2:	ff 4f       	sbci	r31, 0xFF	; 255
+     cd4:	45 91       	lpm	r20, Z+
+     cd6:	54 91       	lpm	r21, Z
+     cd8:	50 93 34 01 	sts	0x0134, r21	; 0x800134 <timer1_pin_port+0x1>
+     cdc:	40 93 33 01 	sts	0x0133, r20	; 0x800133 <timer1_pin_port>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:196
+        timer1_pin_mask = digitalPinToBitMask(_pin);
+     ce0:	f9 01       	movw	r30, r18
+     ce2:	e1 58       	subi	r30, 0x81	; 129
+     ce4:	ff 4f       	sbci	r31, 0xFF	; 255
+     ce6:	e4 91       	lpm	r30, Z
+     ce8:	e0 93 32 01 	sts	0x0132, r30	; 0x800132 <timer1_pin_mask>
+     cec:	cf ce       	rjmp	.-610    	; 0xa8c <tone(unsigned char, unsigned int, unsigned long)+0x7a>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:203
+      #endif
+
+      #if defined(TCCR2A) && defined(TCCR2B)
+      case 2:
+        // 8 bit timer
+        TCCR2A = 0;
+     cee:	10 92 b0 00 	sts	0x00B0, r1	; 0x8000b0 <__DATA_REGION_ORIGIN__+0x50>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:204
+        TCCR2B = 0;
+     cf2:	10 92 b1 00 	sts	0x00B1, r1	; 0x8000b1 <__DATA_REGION_ORIGIN__+0x51>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:205
+        bitWrite(TCCR2A, WGM21, 1);
+     cf6:	90 91 b0 00 	lds	r25, 0x00B0	; 0x8000b0 <__DATA_REGION_ORIGIN__+0x50>
+     cfa:	92 60       	ori	r25, 0x02	; 2
+     cfc:	90 93 b0 00 	sts	0x00B0, r25	; 0x8000b0 <__DATA_REGION_ORIGIN__+0x50>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:206
+        bitWrite(TCCR2B, CS20, 1);
+     d00:	90 91 b1 00 	lds	r25, 0x00B1	; 0x8000b1 <__DATA_REGION_ORIGIN__+0x51>
+     d04:	91 60       	ori	r25, 0x01	; 1
+     d06:	90 93 b1 00 	sts	0x00B1, r25	; 0x8000b1 <__DATA_REGION_ORIGIN__+0x51>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:207
+        timer2_pin_port = portOutputRegister(digitalPinToPort(_pin));
+     d0a:	28 2f       	mov	r18, r24
+     d0c:	30 e0       	ldi	r19, 0x00	; 0
+     d0e:	f9 01       	movw	r30, r18
+     d10:	ea 56       	subi	r30, 0x6A	; 106
+     d12:	ff 4f       	sbci	r31, 0xFF	; 255
+     d14:	e4 91       	lpm	r30, Z
+     d16:	f0 e0       	ldi	r31, 0x00	; 0
+     d18:	ee 0f       	add	r30, r30
+     d1a:	ff 1f       	adc	r31, r31
+     d1c:	e9 54       	subi	r30, 0x49	; 73
+     d1e:	ff 4f       	sbci	r31, 0xFF	; 255
+     d20:	45 91       	lpm	r20, Z+
+     d22:	54 91       	lpm	r21, Z
+     d24:	50 93 2d 01 	sts	0x012D, r21	; 0x80012d <timer2_pin_port+0x1>
+     d28:	40 93 2c 01 	sts	0x012C, r20	; 0x80012c <timer2_pin_port>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:208
+        timer2_pin_mask = digitalPinToBitMask(_pin);
+     d2c:	f9 01       	movw	r30, r18
+     d2e:	e1 58       	subi	r30, 0x81	; 129
+     d30:	ff 4f       	sbci	r31, 0xFF	; 255
+     d32:	e4 91       	lpm	r30, Z
+     d34:	e0 93 2b 01 	sts	0x012B, r30	; 0x80012b <timer2_pin_mask>
+     d38:	a9 ce       	rjmp	.-686    	; 0xa8c <tone(unsigned char, unsigned int, unsigned long)+0x7a>
+_Z4tonehjm():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:281
+    
+    // if we are using an 8 bit timer, scan through prescalars to find the best fit
+    if (_timer == 0 || _timer == 2)
+    {
+      ocr = F_CPU / frequency / 2 - 1;
+      prescalarbits = 0b001;  // ck/1: same for both timers
+     d3a:	81 e0       	ldi	r24, 0x01	; 1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:319
+          }
+        }
+      }
+
+#if defined(TCCR0B)
+      if (_timer == 0)
+     d3c:	ad 81       	ldd	r26, Y+5	; 0x05
+     d3e:	a1 11       	cpse	r26, r1
+     d40:	4f cf       	rjmp	.-354    	; 0xbe0 <tone(unsigned char, unsigned int, unsigned long)+0x1ce>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:321
+      {
+        TCCR0B = (TCCR0B & 0b11111000) | prescalarbits;
+     d42:	95 b5       	in	r25, 0x25	; 37
+     d44:	98 7f       	andi	r25, 0xF8	; 248
+     d46:	89 2b       	or	r24, r25
+     d48:	85 bd       	out	0x25, r24	; 37
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:370
+
+    }
+    
+
+    // Calculate the toggle count
+    if (duration > 0)
+     d4a:	89 81       	ldd	r24, Y+1	; 0x01
+     d4c:	9a 81       	ldd	r25, Y+2	; 0x02
+     d4e:	ab 81       	ldd	r26, Y+3	; 0x03
+     d50:	bc 81       	ldd	r27, Y+4	; 0x04
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:376
+    {
+      toggle_count = 2 * frequency * duration / 1000;
+    }
+    else
+    {
+      toggle_count = -1;
+     d52:	2f ef       	ldi	r18, 0xFF	; 255
+     d54:	3f ef       	ldi	r19, 0xFF	; 255
+     d56:	a9 01       	movw	r20, r18
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:370
+
+    }
+    
+
+    // Calculate the toggle count
+    if (duration > 0)
+     d58:	89 2b       	or	r24, r25
+     d5a:	8a 2b       	or	r24, r26
+     d5c:	8b 2b       	or	r24, r27
+     d5e:	09 f4       	brne	.+2      	; 0xd62 <tone(unsigned char, unsigned int, unsigned long)+0x350>
+     d60:	5a cf       	rjmp	.-332    	; 0xc16 <tone(unsigned char, unsigned int, unsigned long)+0x204>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:372
+    {
+      toggle_count = 2 * frequency * duration / 1000;
+     d62:	d8 01       	movw	r26, r16
+     d64:	aa 0f       	add	r26, r26
+     d66:	bb 1f       	adc	r27, r27
+     d68:	29 81       	ldd	r18, Y+1	; 0x01
+     d6a:	3a 81       	ldd	r19, Y+2	; 0x02
+     d6c:	4b 81       	ldd	r20, Y+3	; 0x03
+     d6e:	5c 81       	ldd	r21, Y+4	; 0x04
+     d70:	0e 94 72 09 	call	0x12e4	; 0x12e4 <__muluhisi3>
+     d74:	28 ee       	ldi	r18, 0xE8	; 232
+     d76:	33 e0       	ldi	r19, 0x03	; 3
+     d78:	40 e0       	ldi	r20, 0x00	; 0
+     d7a:	50 e0       	ldi	r21, 0x00	; 0
+     d7c:	0e 94 31 09 	call	0x1262	; 0x1262 <__udivmodsi4>
+     d80:	41 cf       	rjmp	.-382    	; 0xc04 <tone(unsigned char, unsigned int, unsigned long)+0x1f2>
+     d82:	b1 2c       	mov	r11, r1
+     d84:	a1 2c       	mov	r10, r1
+     d86:	60 e8       	ldi	r22, 0x80	; 128
+     d88:	74 e8       	ldi	r23, 0x84	; 132
+     d8a:	8e e1       	ldi	r24, 0x1E	; 30
+     d8c:	90 e0       	ldi	r25, 0x00	; 0
+     d8e:	a5 01       	movw	r20, r10
+     d90:	98 01       	movw	r18, r16
+     d92:	0e 94 53 09 	call	0x12a6	; 0x12a6 <__divmodsi4>
+     d96:	69 01       	movw	r12, r18
+     d98:	7a 01       	movw	r14, r20
+     d9a:	91 e0       	ldi	r25, 0x01	; 1
+     d9c:	c9 1a       	sub	r12, r25
+     d9e:	d1 08       	sbc	r13, r1
+     da0:	e1 08       	sbc	r14, r1
+     da2:	f1 08       	sbc	r15, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:340
+    else
+    {
+      // two choices for the 16 bit timers: ck/1 or ck/64
+      ocr = F_CPU / frequency / 2 - 1;
+
+      prescalarbits = 0b001;
+     da4:	91 e0       	ldi	r25, 0x01	; 1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:341
+      if (ocr > 0xffff)
+     da6:	c1 14       	cp	r12, r1
+     da8:	d1 04       	cpc	r13, r1
+     daa:	a1 e0       	ldi	r26, 0x01	; 1
+     dac:	ea 06       	cpc	r14, r26
+     dae:	f1 04       	cpc	r15, r1
+     db0:	84 f0       	brlt	.+32     	; 0xdd2 <tone(unsigned char, unsigned int, unsigned long)+0x3c0>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:343
+      {
+        ocr = F_CPU / frequency / 2 / 64 - 1;
+     db2:	62 e1       	ldi	r22, 0x12	; 18
+     db4:	7a e7       	ldi	r23, 0x7A	; 122
+     db6:	80 e0       	ldi	r24, 0x00	; 0
+     db8:	90 e0       	ldi	r25, 0x00	; 0
+     dba:	a5 01       	movw	r20, r10
+     dbc:	98 01       	movw	r18, r16
+     dbe:	0e 94 53 09 	call	0x12a6	; 0x12a6 <__divmodsi4>
+     dc2:	69 01       	movw	r12, r18
+     dc4:	7a 01       	movw	r14, r20
+     dc6:	b1 e0       	ldi	r27, 0x01	; 1
+     dc8:	cb 1a       	sub	r12, r27
+     dca:	d1 08       	sbc	r13, r1
+     dcc:	e1 08       	sbc	r14, r1
+     dce:	f1 08       	sbc	r15, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:344
+        prescalarbits = 0b011;
+     dd0:	93 e0       	ldi	r25, 0x03	; 3
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:347
+      }
+
+      if (_timer == 1)
+     dd2:	8d 81       	ldd	r24, Y+5	; 0x05
+     dd4:	81 30       	cpi	r24, 0x01	; 1
+     dd6:	09 f0       	breq	.+2      	; 0xdda <tone(unsigned char, unsigned int, unsigned long)+0x3c8>
+     dd8:	09 cf       	rjmp	.-494    	; 0xbec <tone(unsigned char, unsigned int, unsigned long)+0x1da>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:350
+      {
+#if defined(TCCR1B)
+        TCCR1B = (TCCR1B & 0b11111000) | prescalarbits;
+     dda:	80 91 81 00 	lds	r24, 0x0081	; 0x800081 <__DATA_REGION_ORIGIN__+0x21>
+     dde:	88 7f       	andi	r24, 0xF8	; 248
+     de0:	89 2b       	or	r24, r25
+     de2:	80 93 81 00 	sts	0x0081, r24	; 0x800081 <__DATA_REGION_ORIGIN__+0x21>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:370
+
+    }
+    
+
+    // Calculate the toggle count
+    if (duration > 0)
+     de6:	89 81       	ldd	r24, Y+1	; 0x01
+     de8:	9a 81       	ldd	r25, Y+2	; 0x02
+     dea:	ab 81       	ldd	r26, Y+3	; 0x03
+     dec:	bc 81       	ldd	r27, Y+4	; 0x04
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:376
+    {
+      toggle_count = 2 * frequency * duration / 1000;
+    }
+    else
+    {
+      toggle_count = -1;
+     dee:	2f ef       	ldi	r18, 0xFF	; 255
+     df0:	3f ef       	ldi	r19, 0xFF	; 255
+     df2:	a9 01       	movw	r20, r18
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:370
+
+    }
+    
+
+    // Calculate the toggle count
+    if (duration > 0)
+     df4:	89 2b       	or	r24, r25
+     df6:	8a 2b       	or	r24, r26
+     df8:	8b 2b       	or	r24, r27
+     dfa:	09 f0       	breq	.+2      	; 0xdfe <tone(unsigned char, unsigned int, unsigned long)+0x3ec>
+     dfc:	b2 cf       	rjmp	.-156    	; 0xd62 <tone(unsigned char, unsigned int, unsigned long)+0x350>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:395
+        break;
+#endif
+
+      case 1:
+#if defined(OCR1A) && defined(TIMSK1) && defined(OCIE1A)
+        OCR1A = ocr;
+     dfe:	d0 92 89 00 	sts	0x0089, r13	; 0x800089 <__DATA_REGION_ORIGIN__+0x29>
+     e02:	c0 92 88 00 	sts	0x0088, r12	; 0x800088 <__DATA_REGION_ORIGIN__+0x28>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:396
+        timer1_toggle_count = toggle_count;
+     e06:	20 93 35 01 	sts	0x0135, r18	; 0x800135 <timer1_toggle_count>
+     e0a:	30 93 36 01 	sts	0x0136, r19	; 0x800136 <timer1_toggle_count+0x1>
+     e0e:	40 93 37 01 	sts	0x0137, r20	; 0x800137 <timer1_toggle_count+0x2>
+     e12:	50 93 38 01 	sts	0x0138, r21	; 0x800138 <timer1_toggle_count+0x3>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:397
+        bitWrite(TIMSK1, OCIE1A, 1);
+     e16:	80 91 6f 00 	lds	r24, 0x006F	; 0x80006f <__DATA_REGION_ORIGIN__+0xf>
+     e1a:	82 60       	ori	r24, 0x02	; 2
+     e1c:	80 93 6f 00 	sts	0x006F, r24	; 0x80006f <__DATA_REGION_ORIGIN__+0xf>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:404
+        // this combination is for at least the ATmega32
+        OCR1A = ocr;
+        timer1_toggle_count = toggle_count;
+        bitWrite(TIMSK, OCIE1A, 1);
+#endif
+        break;
+     e20:	19 ce       	rjmp	.-974    	; 0xa54 <tone(unsigned char, unsigned int, unsigned long)+0x42>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:408
+
+#if defined(OCR2A) && defined(TIMSK2) && defined(OCIE2A)
+      case 2:
+        OCR2A = ocr;
+     e22:	c0 92 b3 00 	sts	0x00B3, r12	; 0x8000b3 <__DATA_REGION_ORIGIN__+0x53>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:409
+        timer2_toggle_count = toggle_count;
+     e26:	20 93 2e 01 	sts	0x012E, r18	; 0x80012e <timer2_toggle_count>
+     e2a:	30 93 2f 01 	sts	0x012F, r19	; 0x80012f <timer2_toggle_count+0x1>
+     e2e:	40 93 30 01 	sts	0x0130, r20	; 0x800130 <timer2_toggle_count+0x2>
+     e32:	50 93 31 01 	sts	0x0131, r21	; 0x800131 <timer2_toggle_count+0x3>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:410
+        bitWrite(TIMSK2, OCIE2A, 1);
+     e36:	80 91 70 00 	lds	r24, 0x0070	; 0x800070 <__DATA_REGION_ORIGIN__+0x10>
+     e3a:	82 60       	ori	r24, 0x02	; 2
+     e3c:	80 93 70 00 	sts	0x0070, r24	; 0x800070 <__DATA_REGION_ORIGIN__+0x10>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:440
+        break;
+#endif
+
+    }
+  }
+}
+     e40:	09 ce       	rjmp	.-1006   	; 0xa54 <tone(unsigned char, unsigned int, unsigned long)+0x42>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:285
+      ocr = F_CPU / frequency / 2 - 1;
+      prescalarbits = 0b001;  // ck/1: same for both timers
+      if (ocr > 255)
+      {
+        ocr = F_CPU / frequency / 2 / 8 - 1;
+        prescalarbits = 0b010;  // ck/8: same for both timers
+     e42:	82 e0       	ldi	r24, 0x02	; 2
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:293
+        {
+          ocr = F_CPU / frequency / 2 / 32 - 1;
+          prescalarbits = 0b011;
+        }
+
+        if (ocr > 255)
+     e44:	9f ef       	ldi	r25, 0xFF	; 255
+     e46:	c9 16       	cp	r12, r25
+     e48:	d1 04       	cpc	r13, r1
+     e4a:	e1 04       	cpc	r14, r1
+     e4c:	f1 04       	cpc	r15, r1
+     e4e:	09 f0       	breq	.+2      	; 0xe52 <tone(unsigned char, unsigned int, unsigned long)+0x440>
+     e50:	0c f4       	brge	.+2      	; 0xe54 <tone(unsigned char, unsigned int, unsigned long)+0x442>
+     e52:	74 cf       	rjmp	.-280    	; 0xd3c <tone(unsigned char, unsigned int, unsigned long)+0x32a>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:295
+        {
+          ocr = F_CPU / frequency / 2 / 64 - 1;
+     e54:	62 e1       	ldi	r22, 0x12	; 18
+     e56:	7a e7       	ldi	r23, 0x7A	; 122
+     e58:	80 e0       	ldi	r24, 0x00	; 0
+     e5a:	90 e0       	ldi	r25, 0x00	; 0
+     e5c:	a3 01       	movw	r20, r6
+     e5e:	92 01       	movw	r18, r4
+     e60:	0e 94 53 09 	call	0x12a6	; 0x12a6 <__divmodsi4>
+     e64:	69 01       	movw	r12, r18
+     e66:	7a 01       	movw	r14, r20
+     e68:	b1 e0       	ldi	r27, 0x01	; 1
+     e6a:	cb 1a       	sub	r12, r27
+     e6c:	d1 08       	sbc	r13, r1
+     e6e:	e1 08       	sbc	r14, r1
+     e70:	f1 08       	sbc	r15, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:304
+          {
+            ocr = F_CPU / frequency / 2 / 128 - 1;
+            prescalarbits = 0b101;
+          }
+
+          if (ocr > 255)
+     e72:	8f ef       	ldi	r24, 0xFF	; 255
+     e74:	c8 16       	cp	r12, r24
+     e76:	d1 04       	cpc	r13, r1
+     e78:	e1 04       	cpc	r14, r1
+     e7a:	f1 04       	cpc	r15, r1
+     e7c:	09 f0       	breq	.+2      	; 0xe80 <tone(unsigned char, unsigned int, unsigned long)+0x46e>
+     e7e:	10 f4       	brcc	.+4      	; 0xe84 <tone(unsigned char, unsigned int, unsigned long)+0x472>
+     e80:	83 e0       	ldi	r24, 0x03	; 3
+     e82:	5c cf       	rjmp	.-328    	; 0xd3c <tone(unsigned char, unsigned int, unsigned long)+0x32a>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:306
+          {
+            ocr = F_CPU / frequency / 2 / 256 - 1;
+     e84:	ff 24       	eor	r15, r15
+     e86:	b7 fc       	sbrc	r11, 7
+     e88:	fa 94       	dec	r15
+     e8a:	eb 2c       	mov	r14, r11
+     e8c:	da 2c       	mov	r13, r10
+     e8e:	c9 2c       	mov	r12, r9
+     e90:	a1 e0       	ldi	r26, 0x01	; 1
+     e92:	ca 1a       	sub	r12, r26
+     e94:	d1 08       	sbc	r13, r1
+     e96:	e1 08       	sbc	r14, r1
+     e98:	f1 08       	sbc	r15, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:308
+            prescalarbits = _timer != TIMER_WITH_FULL_PRESCALER ? 0b100 : 0b110;
+            if (ocr > 255)
+     e9a:	84 e0       	ldi	r24, 0x04	; 4
+     e9c:	bf ef       	ldi	r27, 0xFF	; 255
+     e9e:	cb 16       	cp	r12, r27
+     ea0:	d1 04       	cpc	r13, r1
+     ea2:	e1 04       	cpc	r14, r1
+     ea4:	f1 04       	cpc	r15, r1
+     ea6:	09 f0       	breq	.+2      	; 0xeaa <tone(unsigned char, unsigned int, unsigned long)+0x498>
+     ea8:	08 f4       	brcc	.+2      	; 0xeac <tone(unsigned char, unsigned int, unsigned long)+0x49a>
+     eaa:	48 cf       	rjmp	.-368    	; 0xd3c <tone(unsigned char, unsigned int, unsigned long)+0x32a>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:311
+            {
+              // Can't do any better than /1024
+              ocr = F_CPU / frequency / 2 / 1024 - 1;
+     eac:	75 01       	movw	r14, r10
+     eae:	64 01       	movw	r12, r8
+     eb0:	8a e0       	ldi	r24, 0x0A	; 10
+     eb2:	f5 94       	asr	r15
+     eb4:	e7 94       	ror	r14
+     eb6:	d7 94       	ror	r13
+     eb8:	c7 94       	ror	r12
+     eba:	8a 95       	dec	r24
+     ebc:	d1 f7       	brne	.-12     	; 0xeb2 <tone(unsigned char, unsigned int, unsigned long)+0x4a0>
+     ebe:	91 e0       	ldi	r25, 0x01	; 1
+     ec0:	c9 1a       	sub	r12, r25
+     ec2:	d1 08       	sbc	r13, r1
+     ec4:	e1 08       	sbc	r14, r1
+     ec6:	f1 08       	sbc	r15, r1
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:312
+              prescalarbits = _timer != TIMER_WITH_FULL_PRESCALER ? 0b101 : 0b111;
+     ec8:	85 e0       	ldi	r24, 0x05	; 5
+     eca:	38 cf       	rjmp	.-400    	; 0xd3c <tone(unsigned char, unsigned int, unsigned long)+0x32a>
+
+00000ecc <disableTimer(unsigned char)>:
+_Z12disableTimerh():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:448
+// XXX: this function only works properly for timer 2 (the only one we use
+// currently).  for the others, it should end the tone, but won't restore
+// proper PWM functionality for the timer.
+void disableTimer(uint8_t _timer)
+{
+  switch (_timer)
+     ecc:	81 30       	cpi	r24, 0x01	; 1
+     ece:	39 f0       	breq	.+14     	; 0xede <disableTimer(unsigned char)+0x12>
+     ed0:	18 f0       	brcs	.+6      	; 0xed8 <disableTimer(unsigned char)+0xc>
+     ed2:	82 30       	cpi	r24, 0x02	; 2
+     ed4:	51 f0       	breq	.+20     	; 0xeea <disableTimer(unsigned char)+0x1e>
+     ed6:	08 95       	ret
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:452
+  {
+    case 0:
+      #if defined(TIMSK0)
+        TIMSK0 = 0;
+     ed8:	10 92 6e 00 	sts	0x006E, r1	; 0x80006e <__DATA_REGION_ORIGIN__+0xe>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:456
+      #elif defined(TIMSK)
+        TIMSK = 0; // atmega32
+      #endif
+      break;
+     edc:	08 95       	ret
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:460
+
+#if defined(TIMSK1) && defined(OCIE1A)
+    case 1:
+      bitWrite(TIMSK1, OCIE1A, 0);
+     ede:	80 91 6f 00 	lds	r24, 0x006F	; 0x80006f <__DATA_REGION_ORIGIN__+0xf>
+     ee2:	8d 7f       	andi	r24, 0xFD	; 253
+     ee4:	80 93 6f 00 	sts	0x006F, r24	; 0x80006f <__DATA_REGION_ORIGIN__+0xf>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:461
+      break;
+     ee8:	08 95       	ret
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:466
+#endif
+
+    case 2:
+      #if defined(TIMSK2) && defined(OCIE2A)
+        bitWrite(TIMSK2, OCIE2A, 0); // disable interrupt
+     eea:	80 91 70 00 	lds	r24, 0x0070	; 0x800070 <__DATA_REGION_ORIGIN__+0x10>
+     eee:	8d 7f       	andi	r24, 0xFD	; 253
+     ef0:	80 93 70 00 	sts	0x0070, r24	; 0x800070 <__DATA_REGION_ORIGIN__+0x10>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:469
+      #endif
+      #if defined(TCCR2A) && defined(WGM20)
+        TCCR2A = (1 << WGM20);
+     ef4:	81 e0       	ldi	r24, 0x01	; 1
+     ef6:	80 93 b0 00 	sts	0x00B0, r24	; 0x8000b0 <__DATA_REGION_ORIGIN__+0x50>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:472
+      #endif
+      #if defined(TCCR2B) && defined(CS22)
+        TCCR2B = (TCCR2B & 0b11111000) | (1 << CS22);
+     efa:	80 91 b1 00 	lds	r24, 0x00B1	; 0x8000b1 <__DATA_REGION_ORIGIN__+0x51>
+     efe:	88 7f       	andi	r24, 0xF8	; 248
+     f00:	84 60       	ori	r24, 0x04	; 4
+     f02:	80 93 b1 00 	sts	0x00B1, r24	; 0x8000b1 <__DATA_REGION_ORIGIN__+0x51>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:475
+      #endif
+      #if defined(OCR2A)
+        OCR2A = 0;
+     f06:	10 92 b3 00 	sts	0x00B3, r1	; 0x8000b3 <__DATA_REGION_ORIGIN__+0x53>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:497
+    case 5:
+      bitWrite(TIMSK5, OCIE5A, 0);
+      break;
+#endif
+  }
+}
+     f0a:	08 95       	ret
+
+00000f0c <noTone(unsigned char)>:
+_Z6noToneh():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:501
+
+
+void noTone(uint8_t _pin)
+{
+     f0c:	cf 93       	push	r28
+     f0e:	c8 2f       	mov	r28, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:505
+  int8_t _timer = -1;
+  
+  for (int i = 0; i < AVAILABLE_TONE_PINS; i++) {
+    if (tone_pins[i] == _pin) {
+     f10:	80 91 18 01 	lds	r24, 0x0118	; 0x800118 <tone_pins>
+     f14:	c8 13       	cpse	r28, r24
+     f16:	0d c0       	rjmp	.+26     	; 0xf32 <noTone(unsigned char)+0x26>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:506
+      _timer = pgm_read_byte(tone_pin_to_timer_PGM + i);
+     f18:	eb ec       	ldi	r30, 0xCB	; 203
+     f1a:	f0 e0       	ldi	r31, 0x00	; 0
+     f1c:	84 91       	lpm	r24, Z
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:507
+      tone_pins[i] = 255;
+     f1e:	9f ef       	ldi	r25, 0xFF	; 255
+     f20:	90 93 18 01 	sts	0x0118, r25	; 0x800118 <tone_pins>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:512
+      break;
+    }
+  }
+  
+  disableTimer(_timer);
+     f24:	0e 94 66 07 	call	0xecc	; 0xecc <disableTimer(unsigned char)>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:514
+
+  digitalWrite(_pin, 0);
+     f28:	60 e0       	ldi	r22, 0x00	; 0
+     f2a:	8c 2f       	mov	r24, r28
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:515
+}
+     f2c:	cf 91       	pop	r28
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:514
+    }
+  }
+  
+  disableTimer(_timer);
+
+  digitalWrite(_pin, 0);
+     f2e:	0c 94 99 04 	jmp	0x932	; 0x932 <digitalWrite>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:502
+}
+
+
+void noTone(uint8_t _pin)
+{
+  int8_t _timer = -1;
+     f32:	8f ef       	ldi	r24, 0xFF	; 255
+     f34:	f7 cf       	rjmp	.-18     	; 0xf24 <noTone(unsigned char)+0x18>
+
+00000f36 <__vector_7>:
+__vector_7():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:563
+#if defined(__AVR_ATmega162__)
+ISR(TIMER2_COMP_vect)
+#else
+ISR(TIMER2_COMPA_vect)
+#endif
+{
+     f36:	1f 92       	push	r1
+     f38:	0f 92       	push	r0
+     f3a:	0f b6       	in	r0, 0x3f	; 63
+     f3c:	0f 92       	push	r0
+     f3e:	11 24       	eor	r1, r1
+     f40:	2f 93       	push	r18
+     f42:	3f 93       	push	r19
+     f44:	4f 93       	push	r20
+     f46:	5f 93       	push	r21
+     f48:	6f 93       	push	r22
+     f4a:	7f 93       	push	r23
+     f4c:	8f 93       	push	r24
+     f4e:	9f 93       	push	r25
+     f50:	af 93       	push	r26
+     f52:	bf 93       	push	r27
+     f54:	ef 93       	push	r30
+     f56:	ff 93       	push	r31
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:565
+
+  if (timer2_toggle_count != 0)
+     f58:	80 91 2e 01 	lds	r24, 0x012E	; 0x80012e <timer2_toggle_count>
+     f5c:	90 91 2f 01 	lds	r25, 0x012F	; 0x80012f <timer2_toggle_count+0x1>
+     f60:	a0 91 30 01 	lds	r26, 0x0130	; 0x800130 <timer2_toggle_count+0x2>
+     f64:	b0 91 31 01 	lds	r27, 0x0131	; 0x800131 <timer2_toggle_count+0x3>
+     f68:	89 2b       	or	r24, r25
+     f6a:	8a 2b       	or	r24, r26
+     f6c:	8b 2b       	or	r24, r27
+     f6e:	d1 f1       	breq	.+116    	; 0xfe4 <__vector_7+0xae>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:568
+  {
+    // toggle the pin
+    *timer2_pin_port ^= timer2_pin_mask;
+     f70:	90 91 2b 01 	lds	r25, 0x012B	; 0x80012b <timer2_pin_mask>
+     f74:	e0 91 2c 01 	lds	r30, 0x012C	; 0x80012c <timer2_pin_port>
+     f78:	f0 91 2d 01 	lds	r31, 0x012D	; 0x80012d <timer2_pin_port+0x1>
+     f7c:	80 81       	ld	r24, Z
+     f7e:	89 27       	eor	r24, r25
+     f80:	80 83       	st	Z, r24
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:570
+
+    if (timer2_toggle_count > 0)
+     f82:	80 91 2e 01 	lds	r24, 0x012E	; 0x80012e <timer2_toggle_count>
+     f86:	90 91 2f 01 	lds	r25, 0x012F	; 0x80012f <timer2_toggle_count+0x1>
+     f8a:	a0 91 30 01 	lds	r26, 0x0130	; 0x800130 <timer2_toggle_count+0x2>
+     f8e:	b0 91 31 01 	lds	r27, 0x0131	; 0x800131 <timer2_toggle_count+0x3>
+     f92:	18 16       	cp	r1, r24
+     f94:	19 06       	cpc	r1, r25
+     f96:	1a 06       	cpc	r1, r26
+     f98:	1b 06       	cpc	r1, r27
+     f9a:	9c f4       	brge	.+38     	; 0xfc2 <__vector_7+0x8c>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:571
+      timer2_toggle_count--;
+     f9c:	80 91 2e 01 	lds	r24, 0x012E	; 0x80012e <timer2_toggle_count>
+     fa0:	90 91 2f 01 	lds	r25, 0x012F	; 0x80012f <timer2_toggle_count+0x1>
+     fa4:	a0 91 30 01 	lds	r26, 0x0130	; 0x800130 <timer2_toggle_count+0x2>
+     fa8:	b0 91 31 01 	lds	r27, 0x0131	; 0x800131 <timer2_toggle_count+0x3>
+     fac:	01 97       	sbiw	r24, 0x01	; 1
+     fae:	a1 09       	sbc	r26, r1
+     fb0:	b1 09       	sbc	r27, r1
+     fb2:	80 93 2e 01 	sts	0x012E, r24	; 0x80012e <timer2_toggle_count>
+     fb6:	90 93 2f 01 	sts	0x012F, r25	; 0x80012f <timer2_toggle_count+0x1>
+     fba:	a0 93 30 01 	sts	0x0130, r26	; 0x800130 <timer2_toggle_count+0x2>
+     fbe:	b0 93 31 01 	sts	0x0131, r27	; 0x800131 <timer2_toggle_count+0x3>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:582
+    // XXX: this assumes timer 2 is always the first one used.
+    noTone(tone_pins[0]);
+//    disableTimer(2);
+//    *timer2_pin_port &= ~(timer2_pin_mask);  // keep pin low after stop
+  }
+}
+     fc2:	ff 91       	pop	r31
+     fc4:	ef 91       	pop	r30
+     fc6:	bf 91       	pop	r27
+     fc8:	af 91       	pop	r26
+     fca:	9f 91       	pop	r25
+     fcc:	8f 91       	pop	r24
+     fce:	7f 91       	pop	r23
+     fd0:	6f 91       	pop	r22
+     fd2:	5f 91       	pop	r21
+     fd4:	4f 91       	pop	r20
+     fd6:	3f 91       	pop	r19
+     fd8:	2f 91       	pop	r18
+     fda:	0f 90       	pop	r0
+     fdc:	0f be       	out	0x3f, r0	; 63
+     fde:	0f 90       	pop	r0
+     fe0:	1f 90       	pop	r1
+     fe2:	18 95       	reti
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:578
+  else
+  {
+    // need to call noTone() so that the tone_pins[] entry is reset, so the
+    // timer gets initialized next time we call tone().
+    // XXX: this assumes timer 2 is always the first one used.
+    noTone(tone_pins[0]);
+     fe4:	80 91 18 01 	lds	r24, 0x0118	; 0x800118 <tone_pins>
+     fe8:	0e 94 86 07 	call	0xf0c	; 0xf0c <noTone(unsigned char)>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/Tone.cpp:582
+//    disableTimer(2);
+//    *timer2_pin_port &= ~(timer2_pin_mask);  // keep pin low after stop
+  }
+}
+     fec:	ea cf       	rjmp	.-44     	; 0xfc2 <__vector_7+0x8c>
+
+00000fee <initVariant>:
+initVariant():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/main.cpp:28
+int atexit(void (* /*func*/ )()) { return 0; }
+
+// Weak empty variant initialization function.
+// May be redefined by variant files.
+void initVariant() __attribute__((weak));
+void initVariant() { }
+     fee:	08 95       	ret
+
+00000ff0 <main>:
+main():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/main.cpp:35
+//void setupUSB() __attribute__((weak));
+//void setupUSB() { }
+
+int main(void)
+{
+  init();
+     ff0:	0e 94 0a 04 	call	0x814	; 0x814 <init>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/main.cpp:37
+
+  initVariant();
+     ff4:	0e 94 f7 07 	call	0xfee	; 0xfee <initVariant>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/main.cpp:43
+
+#if defined(USBCON)
+  USBDevice.attach();
+#endif
+  
+  setup();
+     ff8:	0e 94 ca 00 	call	0x194	; 0x194 <setup>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/main.cpp:47
+    
+  for (;;) {
+    loop();
+    if (serialEventRun) serialEventRun();
+     ffc:	c0 e0       	ldi	r28, 0x00	; 0
+     ffe:	d0 e0       	ldi	r29, 0x00	; 0
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/main.cpp:46
+#endif
+  
+  setup();
+    
+  for (;;) {
+    loop();
+    1000:	0e 94 99 02 	call	0x532	; 0x532 <loop>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/main.cpp:47
+    if (serialEventRun) serialEventRun();
+    1004:	20 97       	sbiw	r28, 0x00	; 0
+    1006:	e1 f3       	breq	.-8      	; 0x1000 <main+0x10>
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/main.cpp:47 (discriminator 1)
+    1008:	0e 94 00 00 	call	0	; 0x0 <__vectors>
+    100c:	f9 cf       	rjmp	.-14     	; 0x1000 <main+0x10>
+
+0000100e <yield>:
+__empty():
+C:\Users\serpi\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\2.1.3\cores\MCUdude_corefiles/hooks.c:30
+ * Its defined as a weak symbol and it can be redefined to implement a
+ * real cooperative scheduler.
+ */
+static void __empty() {
+  // Empty
+}
+    100e:	08 95       	ret
+
+00001010 <__cmpsf2>:
+__cmpsf2():
+    1010:	0e 94 bc 08 	call	0x1178	; 0x1178 <__fp_cmp>
+    1014:	08 f4       	brcc	.+2      	; 0x1018 <__cmpsf2+0x8>
+    1016:	81 e0       	ldi	r24, 0x01	; 1
+    1018:	08 95       	ret
+
+0000101a <__divsf3>:
+__divsf3():
+    101a:	0e 94 21 08 	call	0x1042	; 0x1042 <__divsf3x>
+    101e:	0c 94 f7 08 	jmp	0x11ee	; 0x11ee <__fp_round>
+    1022:	0e 94 f0 08 	call	0x11e0	; 0x11e0 <__fp_pscB>
+    1026:	58 f0       	brcs	.+22     	; 0x103e <__divsf3+0x24>
+    1028:	0e 94 e9 08 	call	0x11d2	; 0x11d2 <__fp_pscA>
+    102c:	40 f0       	brcs	.+16     	; 0x103e <__divsf3+0x24>
+    102e:	29 f4       	brne	.+10     	; 0x103a <__divsf3+0x20>
+    1030:	5f 3f       	cpi	r21, 0xFF	; 255
+    1032:	29 f0       	breq	.+10     	; 0x103e <__divsf3+0x24>
+    1034:	0c 94 e0 08 	jmp	0x11c0	; 0x11c0 <__fp_inf>
+    1038:	51 11       	cpse	r21, r1
+    103a:	0c 94 2b 09 	jmp	0x1256	; 0x1256 <__fp_szero>
+    103e:	0c 94 e6 08 	jmp	0x11cc	; 0x11cc <__fp_nan>
+
+00001042 <__divsf3x>:
+__divsf3x():
+    1042:	0e 94 08 09 	call	0x1210	; 0x1210 <__fp_split3>
+    1046:	68 f3       	brcs	.-38     	; 0x1022 <__divsf3+0x8>
+
+00001048 <__divsf3_pse>:
+    1048:	99 23       	and	r25, r25
+    104a:	b1 f3       	breq	.-20     	; 0x1038 <__divsf3+0x1e>
+    104c:	55 23       	and	r21, r21
+    104e:	91 f3       	breq	.-28     	; 0x1034 <__divsf3+0x1a>
+    1050:	95 1b       	sub	r25, r21
+    1052:	55 0b       	sbc	r21, r21
+    1054:	bb 27       	eor	r27, r27
+    1056:	aa 27       	eor	r26, r26
+    1058:	62 17       	cp	r22, r18
+    105a:	73 07       	cpc	r23, r19
+    105c:	84 07       	cpc	r24, r20
+    105e:	38 f0       	brcs	.+14     	; 0x106e <__divsf3_pse+0x26>
+    1060:	9f 5f       	subi	r25, 0xFF	; 255
+    1062:	5f 4f       	sbci	r21, 0xFF	; 255
+    1064:	22 0f       	add	r18, r18
+    1066:	33 1f       	adc	r19, r19
+    1068:	44 1f       	adc	r20, r20
+    106a:	aa 1f       	adc	r26, r26
+    106c:	a9 f3       	breq	.-22     	; 0x1058 <__divsf3_pse+0x10>
+    106e:	35 d0       	rcall	.+106    	; 0x10da <__divsf3_pse+0x92>
+    1070:	0e 2e       	mov	r0, r30
+    1072:	3a f0       	brmi	.+14     	; 0x1082 <__divsf3_pse+0x3a>
+    1074:	e0 e8       	ldi	r30, 0x80	; 128
+    1076:	32 d0       	rcall	.+100    	; 0x10dc <__divsf3_pse+0x94>
+    1078:	91 50       	subi	r25, 0x01	; 1
+    107a:	50 40       	sbci	r21, 0x00	; 0
+    107c:	e6 95       	lsr	r30
+    107e:	00 1c       	adc	r0, r0
+    1080:	ca f7       	brpl	.-14     	; 0x1074 <__divsf3_pse+0x2c>
+    1082:	2b d0       	rcall	.+86     	; 0x10da <__divsf3_pse+0x92>
+    1084:	fe 2f       	mov	r31, r30
+    1086:	29 d0       	rcall	.+82     	; 0x10da <__divsf3_pse+0x92>
+    1088:	66 0f       	add	r22, r22
+    108a:	77 1f       	adc	r23, r23
+    108c:	88 1f       	adc	r24, r24
+    108e:	bb 1f       	adc	r27, r27
+    1090:	26 17       	cp	r18, r22
+    1092:	37 07       	cpc	r19, r23
+    1094:	48 07       	cpc	r20, r24
+    1096:	ab 07       	cpc	r26, r27
+    1098:	b0 e8       	ldi	r27, 0x80	; 128
+    109a:	09 f0       	breq	.+2      	; 0x109e <__divsf3_pse+0x56>
+    109c:	bb 0b       	sbc	r27, r27
+    109e:	80 2d       	mov	r24, r0
+    10a0:	bf 01       	movw	r22, r30
+    10a2:	ff 27       	eor	r31, r31
+    10a4:	93 58       	subi	r25, 0x83	; 131
+    10a6:	5f 4f       	sbci	r21, 0xFF	; 255
+    10a8:	3a f0       	brmi	.+14     	; 0x10b8 <__divsf3_pse+0x70>
+    10aa:	9e 3f       	cpi	r25, 0xFE	; 254
+    10ac:	51 05       	cpc	r21, r1
+    10ae:	78 f0       	brcs	.+30     	; 0x10ce <__divsf3_pse+0x86>
+    10b0:	0c 94 e0 08 	jmp	0x11c0	; 0x11c0 <__fp_inf>
+    10b4:	0c 94 2b 09 	jmp	0x1256	; 0x1256 <__fp_szero>
+    10b8:	5f 3f       	cpi	r21, 0xFF	; 255
+    10ba:	e4 f3       	brlt	.-8      	; 0x10b4 <__divsf3_pse+0x6c>
+    10bc:	98 3e       	cpi	r25, 0xE8	; 232
+    10be:	d4 f3       	brlt	.-12     	; 0x10b4 <__divsf3_pse+0x6c>
+    10c0:	86 95       	lsr	r24
+    10c2:	77 95       	ror	r23
+    10c4:	67 95       	ror	r22
+    10c6:	b7 95       	ror	r27
+    10c8:	f7 95       	ror	r31
+    10ca:	9f 5f       	subi	r25, 0xFF	; 255
+    10cc:	c9 f7       	brne	.-14     	; 0x10c0 <__divsf3_pse+0x78>
+    10ce:	88 0f       	add	r24, r24
+    10d0:	91 1d       	adc	r25, r1
+    10d2:	96 95       	lsr	r25
+    10d4:	87 95       	ror	r24
+    10d6:	97 f9       	bld	r25, 7
+    10d8:	08 95       	ret
+    10da:	e1 e0       	ldi	r30, 0x01	; 1
+    10dc:	66 0f       	add	r22, r22
+    10de:	77 1f       	adc	r23, r23
+    10e0:	88 1f       	adc	r24, r24
+    10e2:	bb 1f       	adc	r27, r27
+    10e4:	62 17       	cp	r22, r18
+    10e6:	73 07       	cpc	r23, r19
+    10e8:	84 07       	cpc	r24, r20
+    10ea:	ba 07       	cpc	r27, r26
+    10ec:	20 f0       	brcs	.+8      	; 0x10f6 <__divsf3_pse+0xae>
+    10ee:	62 1b       	sub	r22, r18
+    10f0:	73 0b       	sbc	r23, r19
+    10f2:	84 0b       	sbc	r24, r20
+    10f4:	ba 0b       	sbc	r27, r26
+    10f6:	ee 1f       	adc	r30, r30
+    10f8:	88 f7       	brcc	.-30     	; 0x10dc <__divsf3_pse+0x94>
+    10fa:	e0 95       	com	r30
+    10fc:	08 95       	ret
+
+000010fe <__floatunsisf>:
+    10fe:	e8 94       	clt
+    1100:	09 c0       	rjmp	.+18     	; 0x1114 <__floatsisf+0x12>
+
+00001102 <__floatsisf>:
+    1102:	97 fb       	bst	r25, 7
+    1104:	3e f4       	brtc	.+14     	; 0x1114 <__floatsisf+0x12>
+    1106:	90 95       	com	r25
+    1108:	80 95       	com	r24
+    110a:	70 95       	com	r23
+    110c:	61 95       	neg	r22
+    110e:	7f 4f       	sbci	r23, 0xFF	; 255
+    1110:	8f 4f       	sbci	r24, 0xFF	; 255
+    1112:	9f 4f       	sbci	r25, 0xFF	; 255
+    1114:	99 23       	and	r25, r25
+    1116:	a9 f0       	breq	.+42     	; 0x1142 <__floatsisf+0x40>
+    1118:	f9 2f       	mov	r31, r25
+    111a:	96 e9       	ldi	r25, 0x96	; 150
+    111c:	bb 27       	eor	r27, r27
+__floatsisf():
+    111e:	93 95       	inc	r25
+    1120:	f6 95       	lsr	r31
+    1122:	87 95       	ror	r24
+    1124:	77 95       	ror	r23
+    1126:	67 95       	ror	r22
+    1128:	b7 95       	ror	r27
+    112a:	f1 11       	cpse	r31, r1
+    112c:	f8 cf       	rjmp	.-16     	; 0x111e <__floatsisf+0x1c>
+    112e:	fa f4       	brpl	.+62     	; 0x116e <__floatsisf+0x6c>
+    1130:	bb 0f       	add	r27, r27
+    1132:	11 f4       	brne	.+4      	; 0x1138 <__floatsisf+0x36>
+    1134:	60 ff       	sbrs	r22, 0
+    1136:	1b c0       	rjmp	.+54     	; 0x116e <__floatsisf+0x6c>
+    1138:	6f 5f       	subi	r22, 0xFF	; 255
+    113a:	7f 4f       	sbci	r23, 0xFF	; 255
+    113c:	8f 4f       	sbci	r24, 0xFF	; 255
+    113e:	9f 4f       	sbci	r25, 0xFF	; 255
+    1140:	16 c0       	rjmp	.+44     	; 0x116e <__floatsisf+0x6c>
+    1142:	88 23       	and	r24, r24
+    1144:	11 f0       	breq	.+4      	; 0x114a <__floatsisf+0x48>
+    1146:	96 e9       	ldi	r25, 0x96	; 150
+    1148:	11 c0       	rjmp	.+34     	; 0x116c <__floatsisf+0x6a>
+    114a:	77 23       	and	r23, r23
+    114c:	21 f0       	breq	.+8      	; 0x1156 <__floatsisf+0x54>
+    114e:	9e e8       	ldi	r25, 0x8E	; 142
+    1150:	87 2f       	mov	r24, r23
+    1152:	76 2f       	mov	r23, r22
+    1154:	05 c0       	rjmp	.+10     	; 0x1160 <__floatsisf+0x5e>
+    1156:	66 23       	and	r22, r22
+    1158:	71 f0       	breq	.+28     	; 0x1176 <__floatsisf+0x74>
+    115a:	96 e8       	ldi	r25, 0x86	; 134
+    115c:	86 2f       	mov	r24, r22
+    115e:	70 e0       	ldi	r23, 0x00	; 0
+    1160:	60 e0       	ldi	r22, 0x00	; 0
+    1162:	2a f0       	brmi	.+10     	; 0x116e <__floatsisf+0x6c>
+    1164:	9a 95       	dec	r25
+    1166:	66 0f       	add	r22, r22
+    1168:	77 1f       	adc	r23, r23
+    116a:	88 1f       	adc	r24, r24
+    116c:	da f7       	brpl	.-10     	; 0x1164 <__floatsisf+0x62>
+    116e:	88 0f       	add	r24, r24
+    1170:	96 95       	lsr	r25
+    1172:	87 95       	ror	r24
+    1174:	97 f9       	bld	r25, 7
+    1176:	08 95       	ret
+
+00001178 <__fp_cmp>:
+__fp_cmp():
+    1178:	99 0f       	add	r25, r25
+    117a:	00 08       	sbc	r0, r0
+    117c:	55 0f       	add	r21, r21
+    117e:	aa 0b       	sbc	r26, r26
+    1180:	e0 e8       	ldi	r30, 0x80	; 128
+    1182:	fe ef       	ldi	r31, 0xFE	; 254
+    1184:	16 16       	cp	r1, r22
+    1186:	17 06       	cpc	r1, r23
+    1188:	e8 07       	cpc	r30, r24
+    118a:	f9 07       	cpc	r31, r25
+    118c:	c0 f0       	brcs	.+48     	; 0x11be <__fp_cmp+0x46>
+    118e:	12 16       	cp	r1, r18
+    1190:	13 06       	cpc	r1, r19
+    1192:	e4 07       	cpc	r30, r20
+    1194:	f5 07       	cpc	r31, r21
+    1196:	98 f0       	brcs	.+38     	; 0x11be <__fp_cmp+0x46>
+    1198:	62 1b       	sub	r22, r18
+    119a:	73 0b       	sbc	r23, r19
+    119c:	84 0b       	sbc	r24, r20
+    119e:	95 0b       	sbc	r25, r21
+    11a0:	39 f4       	brne	.+14     	; 0x11b0 <__fp_cmp+0x38>
+    11a2:	0a 26       	eor	r0, r26
+    11a4:	61 f0       	breq	.+24     	; 0x11be <__fp_cmp+0x46>
+    11a6:	23 2b       	or	r18, r19
+    11a8:	24 2b       	or	r18, r20
+    11aa:	25 2b       	or	r18, r21
+    11ac:	21 f4       	brne	.+8      	; 0x11b6 <__fp_cmp+0x3e>
+    11ae:	08 95       	ret
+    11b0:	0a 26       	eor	r0, r26
+    11b2:	09 f4       	brne	.+2      	; 0x11b6 <__fp_cmp+0x3e>
+    11b4:	a1 40       	sbci	r26, 0x01	; 1
+    11b6:	a6 95       	lsr	r26
+    11b8:	8f ef       	ldi	r24, 0xFF	; 255
+    11ba:	81 1d       	adc	r24, r1
+    11bc:	81 1d       	adc	r24, r1
+    11be:	08 95       	ret
+
+000011c0 <__fp_inf>:
+__fp_inf():
+    11c0:	97 f9       	bld	r25, 7
+    11c2:	9f 67       	ori	r25, 0x7F	; 127
+    11c4:	80 e8       	ldi	r24, 0x80	; 128
+    11c6:	70 e0       	ldi	r23, 0x00	; 0
+    11c8:	60 e0       	ldi	r22, 0x00	; 0
+    11ca:	08 95       	ret
+
+000011cc <__fp_nan>:
+__fp_nan():
+    11cc:	9f ef       	ldi	r25, 0xFF	; 255
+    11ce:	80 ec       	ldi	r24, 0xC0	; 192
+    11d0:	08 95       	ret
+
+000011d2 <__fp_pscA>:
+__fp_pscA():
+    11d2:	00 24       	eor	r0, r0
+    11d4:	0a 94       	dec	r0
+    11d6:	16 16       	cp	r1, r22
+    11d8:	17 06       	cpc	r1, r23
+    11da:	18 06       	cpc	r1, r24
+    11dc:	09 06       	cpc	r0, r25
+    11de:	08 95       	ret
+
+000011e0 <__fp_pscB>:
+__fp_pscB():
+    11e0:	00 24       	eor	r0, r0
+    11e2:	0a 94       	dec	r0
+    11e4:	12 16       	cp	r1, r18
+    11e6:	13 06       	cpc	r1, r19
+    11e8:	14 06       	cpc	r1, r20
+    11ea:	05 06       	cpc	r0, r21
+    11ec:	08 95       	ret
+
+000011ee <__fp_round>:
+__fp_round():
+    11ee:	09 2e       	mov	r0, r25
+    11f0:	03 94       	inc	r0
+    11f2:	00 0c       	add	r0, r0
+    11f4:	11 f4       	brne	.+4      	; 0x11fa <__fp_round+0xc>
+    11f6:	88 23       	and	r24, r24
+    11f8:	52 f0       	brmi	.+20     	; 0x120e <__fp_round+0x20>
+    11fa:	bb 0f       	add	r27, r27
+    11fc:	40 f4       	brcc	.+16     	; 0x120e <__fp_round+0x20>
+    11fe:	bf 2b       	or	r27, r31
+    1200:	11 f4       	brne	.+4      	; 0x1206 <__fp_round+0x18>
+    1202:	60 ff       	sbrs	r22, 0
+    1204:	04 c0       	rjmp	.+8      	; 0x120e <__fp_round+0x20>
+    1206:	6f 5f       	subi	r22, 0xFF	; 255
+    1208:	7f 4f       	sbci	r23, 0xFF	; 255
+    120a:	8f 4f       	sbci	r24, 0xFF	; 255
+    120c:	9f 4f       	sbci	r25, 0xFF	; 255
+    120e:	08 95       	ret
+
+00001210 <__fp_split3>:
+__fp_split3():
+    1210:	57 fd       	sbrc	r21, 7
+    1212:	90 58       	subi	r25, 0x80	; 128
+    1214:	44 0f       	add	r20, r20
+    1216:	55 1f       	adc	r21, r21
+    1218:	59 f0       	breq	.+22     	; 0x1230 <__fp_splitA+0x10>
+    121a:	5f 3f       	cpi	r21, 0xFF	; 255
+    121c:	71 f0       	breq	.+28     	; 0x123a <__fp_splitA+0x1a>
+    121e:	47 95       	ror	r20
+
+00001220 <__fp_splitA>:
+    1220:	88 0f       	add	r24, r24
+    1222:	97 fb       	bst	r25, 7
+    1224:	99 1f       	adc	r25, r25
+    1226:	61 f0       	breq	.+24     	; 0x1240 <__fp_splitA+0x20>
+    1228:	9f 3f       	cpi	r25, 0xFF	; 255
+    122a:	79 f0       	breq	.+30     	; 0x124a <__fp_splitA+0x2a>
+    122c:	87 95       	ror	r24
+    122e:	08 95       	ret
+    1230:	12 16       	cp	r1, r18
+    1232:	13 06       	cpc	r1, r19
+    1234:	14 06       	cpc	r1, r20
+    1236:	55 1f       	adc	r21, r21
+    1238:	f2 cf       	rjmp	.-28     	; 0x121e <__fp_split3+0xe>
+    123a:	46 95       	lsr	r20
+    123c:	f1 df       	rcall	.-30     	; 0x1220 <__fp_splitA>
+    123e:	08 c0       	rjmp	.+16     	; 0x1250 <__fp_splitA+0x30>
+    1240:	16 16       	cp	r1, r22
+    1242:	17 06       	cpc	r1, r23
+    1244:	18 06       	cpc	r1, r24
+    1246:	99 1f       	adc	r25, r25
+    1248:	f1 cf       	rjmp	.-30     	; 0x122c <__fp_splitA+0xc>
+    124a:	86 95       	lsr	r24
+    124c:	71 05       	cpc	r23, r1
+    124e:	61 05       	cpc	r22, r1
+    1250:	08 94       	sec
+    1252:	08 95       	ret
+
+00001254 <__fp_zero>:
+__fp_zero():
+    1254:	e8 94       	clt
+
+00001256 <__fp_szero>:
+    1256:	bb 27       	eor	r27, r27
+    1258:	66 27       	eor	r22, r22
+    125a:	77 27       	eor	r23, r23
+    125c:	cb 01       	movw	r24, r22
+    125e:	97 f9       	bld	r25, 7
+    1260:	08 95       	ret
+
+00001262 <__udivmodsi4>:
+__udivmodsi4():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1638
+    1262:	a1 e2       	ldi	r26, 0x21	; 33
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1639
+    1264:	1a 2e       	mov	r1, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1640
+    1266:	aa 1b       	sub	r26, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1641
+    1268:	bb 1b       	sub	r27, r27
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1642
+    126a:	fd 01       	movw	r30, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1644
+    126c:	0d c0       	rjmp	.+26     	; 0x1288 <__udivmodsi4_ep>
+
+0000126e <__udivmodsi4_loop>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1646
+    126e:	aa 1f       	adc	r26, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1647
+    1270:	bb 1f       	adc	r27, r27
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1648
+    1272:	ee 1f       	adc	r30, r30
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1649
+    1274:	ff 1f       	adc	r31, r31
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1650
+    1276:	a2 17       	cp	r26, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1651
+    1278:	b3 07       	cpc	r27, r19
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1652
+    127a:	e4 07       	cpc	r30, r20
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1653
+    127c:	f5 07       	cpc	r31, r21
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1654
+    127e:	20 f0       	brcs	.+8      	; 0x1288 <__udivmodsi4_ep>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1655
+    1280:	a2 1b       	sub	r26, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1656
+    1282:	b3 0b       	sbc	r27, r19
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1657
+    1284:	e4 0b       	sbc	r30, r20
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1658
+    1286:	f5 0b       	sbc	r31, r21
+
+00001288 <__udivmodsi4_ep>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1660
+    1288:	66 1f       	adc	r22, r22
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1661
+    128a:	77 1f       	adc	r23, r23
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1662
+    128c:	88 1f       	adc	r24, r24
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1663
+    128e:	99 1f       	adc	r25, r25
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1664
+    1290:	1a 94       	dec	r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1665
+    1292:	69 f7       	brne	.-38     	; 0x126e <__udivmodsi4_loop>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1667
+    1294:	60 95       	com	r22
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1668
+    1296:	70 95       	com	r23
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1669
+    1298:	80 95       	com	r24
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1670
+    129a:	90 95       	com	r25
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1672
+    129c:	9b 01       	movw	r18, r22
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1674
+    129e:	ac 01       	movw	r20, r24
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1676
+    12a0:	bd 01       	movw	r22, r26
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1678
+    12a2:	cf 01       	movw	r24, r30
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1680
+    12a4:	08 95       	ret
+
+000012a6 <__divmodsi4>:
+__divmodsi4():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1686
+    12a6:	05 2e       	mov	r0, r21
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1687
+    12a8:	97 fb       	bst	r25, 7
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1688
+    12aa:	1e f4       	brtc	.+6      	; 0x12b2 <__divmodsi4+0xc>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1689
+    12ac:	00 94       	com	r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1690
+    12ae:	0e 94 6a 09 	call	0x12d4	; 0x12d4 <__negsi2>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1692
+    12b2:	57 fd       	sbrc	r21, 7
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1693
+    12b4:	07 d0       	rcall	.+14     	; 0x12c4 <__divmodsi4_neg2>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1694
+    12b6:	0e 94 31 09 	call	0x1262	; 0x1262 <__udivmodsi4>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1695
+    12ba:	07 fc       	sbrc	r0, 7
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1696
+    12bc:	03 d0       	rcall	.+6      	; 0x12c4 <__divmodsi4_neg2>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1697
+    12be:	4e f4       	brtc	.+18     	; 0x12d2 <__divmodsi4_exit>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1698
+    12c0:	0c 94 6a 09 	jmp	0x12d4	; 0x12d4 <__negsi2>
+
+000012c4 <__divmodsi4_neg2>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1701
+    12c4:	50 95       	com	r21
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1702
+    12c6:	40 95       	com	r20
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1703
+    12c8:	30 95       	com	r19
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1704
+    12ca:	21 95       	neg	r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1705
+    12cc:	3f 4f       	sbci	r19, 0xFF	; 255
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1706
+    12ce:	4f 4f       	sbci	r20, 0xFF	; 255
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1707
+    12d0:	5f 4f       	sbci	r21, 0xFF	; 255
+
+000012d2 <__divmodsi4_exit>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1709
+    12d2:	08 95       	ret
+
+000012d4 <__negsi2>:
+__negsi2():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1718
+    12d4:	90 95       	com	r25
+    12d6:	80 95       	com	r24
+    12d8:	70 95       	com	r23
+    12da:	61 95       	neg	r22
+    12dc:	7f 4f       	sbci	r23, 0xFF	; 255
+    12de:	8f 4f       	sbci	r24, 0xFF	; 255
+    12e0:	9f 4f       	sbci	r25, 0xFF	; 255
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1719
+    12e2:	08 95       	ret
+
+000012e4 <__muluhisi3>:
+__muluhisi3():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:626
+    12e4:	0e 94 7d 09 	call	0x12fa	; 0x12fa <__umulhisi3>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:627
+    12e8:	a5 9f       	mul	r26, r21
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:628
+    12ea:	90 0d       	add	r25, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:629
+    12ec:	b4 9f       	mul	r27, r20
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:630
+    12ee:	90 0d       	add	r25, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:631
+    12f0:	a4 9f       	mul	r26, r20
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:632
+    12f2:	80 0d       	add	r24, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:633
+    12f4:	91 1d       	adc	r25, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:634
+    12f6:	11 24       	eor	r1, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:635
+    12f8:	08 95       	ret
+
+000012fa <__umulhisi3>:
+__umulhisi3():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:564
+    12fa:	a2 9f       	mul	r26, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:565
+    12fc:	b0 01       	movw	r22, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:566
+    12fe:	b3 9f       	mul	r27, r19
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:567
+    1300:	c0 01       	movw	r24, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:568
+    1302:	a3 9f       	mul	r26, r19
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:573
+    1304:	70 0d       	add	r23, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:574
+    1306:	81 1d       	adc	r24, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:575
+    1308:	11 24       	eor	r1, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:576
+    130a:	91 1d       	adc	r25, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:580
+    130c:	b2 9f       	mul	r27, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:581
+    130e:	70 0d       	add	r23, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:582
+    1310:	81 1d       	adc	r24, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:583
+    1312:	11 24       	eor	r1, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:584
+    1314:	91 1d       	adc	r25, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:585
+    1316:	08 95       	ret
+
+00001318 <_exit>:
+exit():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+    1318:	f8 94       	cli
+
+0000131a <__stop_program>:
+__stop_program():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr5/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+    131a:	ff cf       	rjmp	.-2      	; 0x131a <__stop_program>
